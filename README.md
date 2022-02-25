@@ -10,7 +10,7 @@ This repository contains the source code, as well as other useful information, f
 The paper is available here: [Paper](https://dl.acm.org/doi/abs/10.1145/3488560.3498519) (**Best Paper Award Runner-up**)
 
 For a quick overview of the paper, you can refer to these slides:
-[The Datasets Dilemma Slides](https://github.com/almightyGOSU/TheDatasetsDilemmaWIP/blob/d0e49eb91b11a522835f0fe6e24396b24fd509b9/WSDM%202022%20-%20The%20Datasets%20Dilemma%20-%20Slides.pdf)
+[The Datasets Dilemma Slides](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/WSDM%202022%20-%20The%20Datasets%20Dilemma%20-%20Slides.pdf)
 
 
 ## Reference
@@ -41,20 +41,20 @@ Please consider citing our work if you find it useful, thank you!
 In our paper, we try to address the "datasets dilemma" using 3 main steps.
 1. ***How*** are different datasets being utilised in recent papers?
    - Are there any patterns?
-   - Code can be found in the ``./Step 1/`` folder (Please refer to its [README file](https://github.com/almightyGOSU/TheDatasetsDilemmaWIP/blob/e8a90f61977db22e879f2b28f2c647df329e77ae/Step%201/README.md))
+   - Code can be found in the ``./Step 1/`` folder (Please refer to its [README file](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Step%201/README.md))
 2. ***What*** are the similarities as well as differences between various datasets?
    - Can we define them using objective measures?
-   - Code can be found in the ``./Step 2/`` folder (Please refer to its [README file]())
+   - Code can be found in the ``./Step 2/`` folder (Please refer to its [README file](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Step%202/README.md))
 3. ***If*** the choice of datasets used could influence the observations and/or conclusions obtained
    - Empirical study using a variety of item recommendation algorithms
-   - Code can be found in the ``./Step 3/`` folder (Please refer to its [README file]())
+   - Code can be found in the ``./Step 3/`` folder (Please refer to its [README file](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Step%203/README.md))
 
 **The ``./Datasets/`` folder**
 - ``./Datasets/Source/`` contains the raw datasets
 - ``./Datasets/Preprocessed/`` contains the preprocessed datasets
-- The dataset characteristics (as well as other information) for all 51 datasets: [characteristics_all.txt](https://github.com/almightyGOSU/TheDatasetsDilemmaWIP/blob/194e3d888a753d68ffd0c05d777d68a339a2ca6b/Datasets/characteristics_all.txt)
-  - Basic Dataset Information (in a table format): [characteristics_table_basic_detailed.txt](https://github.com/almightyGOSU/TheDatasetsDilemmaWIP/blob/194e3d888a753d68ffd0c05d777d68a339a2ca6b/Datasets/characteristics_table_basic_detailed.txt)
-  - Dataset Characteristics (in a table format): [characteristics_table_basic_advanced.txt](https://github.com/almightyGOSU/TheDatasetsDilemmaWIP/blob/194e3d888a753d68ffd0c05d777d68a339a2ca6b/Datasets/characteristics_table_basic_advanced.txt)
+- The dataset characteristics (as well as other information) for all 51 datasets: [characteristics_all.txt](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Datasets/characteristics_all.txt)
+  - Basic Dataset Information (in a table format): [characteristics_table_basic_detailed.txt](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Datasets/characteristics_table_basic_detailed.txt)
+  - Dataset Characteristics (in a table format): [characteristics_table_basic_advanced.txt](https://github.com/almightyGOSU/TheDatasetsDilemma/blob/b76fb72c76c1911737bf7c589f0733de15deeb7e/Datasets/characteristics_table_basic_advanced.txt)
 
 
 ## Environment Setup
