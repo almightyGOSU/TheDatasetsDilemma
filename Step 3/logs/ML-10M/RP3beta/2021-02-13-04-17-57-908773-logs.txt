@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          76
+alpha:                         2
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.30s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 27.34s (0:00:27)
+
+Validation nDCG@10: 0.01584	Elapsed Time: 42.25s (0:00:42)
+
+
+<Best> Validation nDCG@10: 0.01584 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00851 (0.00029)
+Test nDCG@10    = 0.01269 (0.00032)
+Test nDCG@15    = 0.01543 (0.00033)
+Test nDCG@20    = 0.01810 (0.00035)
+Test nDCG@25    = 0.02043 (0.00036)
+Test nDCG@50    = 0.02512 (0.00037)
+Test nDCG@75    = 0.03063 (0.00038)
+Test nDCG@100   = 0.03518 (0.00038)
+
+Test Recall@5   = 0.01347 (0.00044)
+Test Recall@10  = 0.02587 (0.00060)
+Test Recall@15  = 0.03711 (0.00072)
+Test Recall@20  = 0.04808 (0.00081)
+Test Recall@25  = 0.05749 (0.00088)
+Test Recall@50  = 0.08601 (0.00106)
+Test Recall@75  = 0.12113 (0.00123)
+Test Recall@100 = 0.15322 (0.00136)
+

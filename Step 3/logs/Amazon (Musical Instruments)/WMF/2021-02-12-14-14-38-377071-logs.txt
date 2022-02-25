@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Musical Instruments) -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Musical Instruments)
+  dataset: Amazon (Musical Instruments)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    100
+factors:                       144
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 1,429
+Number of Items: 900
+
+Number of Training Samples: 7,403
+trainData's shape: (900, 1429)
+
+Number of Validation Samples: 1,429
+validationData's shape: (1429, 900)
+
+Number of Testing Samples: 1,429
+testData's shape: (1429, 900)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 0.12s (0:00:00)
+
+Validation nDCG@10: 0.03119	Elapsed Time: 0.42s (0:00:00)
+
+
+<Best> Validation nDCG@10: 0.03119 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01802 (0.00298)
+Test nDCG@10    = 0.02322 (0.00314)
+Test nDCG@15    = 0.02684 (0.00323)
+Test nDCG@20    = 0.02902 (0.00327)
+Test nDCG@25    = 0.03146 (0.00331)
+Test nDCG@50    = 0.04027 (0.00342)
+Test nDCG@75    = 0.04625 (0.00347)
+Test nDCG@100   = 0.05222 (0.00351)
+
+Test Recall@5   = 0.02869 (0.00442)
+Test Recall@10  = 0.04479 (0.00547)
+Test Recall@15  = 0.05878 (0.00622)
+Test Recall@20  = 0.06788 (0.00665)
+Test Recall@25  = 0.07908 (0.00714)
+Test Recall@50  = 0.12456 (0.00874)
+Test Recall@75  = 0.16025 (0.00970)
+Test Recall@100 = 0.19874 (0.01056)
+

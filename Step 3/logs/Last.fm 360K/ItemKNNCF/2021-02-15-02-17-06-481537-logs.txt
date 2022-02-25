@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Last.fm 360K -m ItemKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Last.fm 360K
+  dataset: Last.fm 360K
+  model: ItemKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          216
+shrink:                        372
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 358,592
+Number of Items: 87,627
+
+Number of Training Samples: 16,454,422
+trainData's shape: (358592, 87627)
+
+Number of Validation Samples: 358,592
+validationData's shape: (358592, 87627)
+
+Number of Testing Samples: 358,592
+testData's shape: (358592, 87627)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'ItemKNNCF' created! Elapsed Time: 0.54s (0:00:00)
+
+Fitting 'ItemKNNCF'..
+'ItemKNNCF' fitted! Elapsed Time: 1,497.84s (0:24:57)
+
+Validation nDCG@10: 0.09818	Elapsed Time: 2,719.64s (0:45:19)
+
+
+<Best> Validation nDCG@10: 0.09818 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.08171 (0.00040)
+Test nDCG@10    = 0.09871 (0.00041)
+Test nDCG@15    = 0.10883 (0.00041)
+Test nDCG@20    = 0.11612 (0.00041)
+Test nDCG@25    = 0.12197 (0.00041)
+Test nDCG@50    = 0.14024 (0.00040)
+Test nDCG@75    = 0.15073 (0.00040)
+Test nDCG@100   = 0.15815 (0.00040)
+
+Test Recall@5   = 0.11846 (0.00054)
+Test Recall@10  = 0.17134 (0.00063)
+Test Recall@15  = 0.20960 (0.00068)
+Test Recall@20  = 0.24050 (0.00071)
+Test Recall@25  = 0.26728 (0.00074)
+Test Recall@50  = 0.36235 (0.00080)
+Test Recall@75  = 0.42499 (0.00083)
+Test Recall@100 = 0.47292 (0.00083)
+

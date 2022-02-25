@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.14s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 93.39s (0:01:33)
+
+Validation nDCG@10: 0.08315	Elapsed Time: 169.18s (0:02:49)
+
+
+<Best> Validation nDCG@10: 0.08315 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04110 (0.00066)
+Test nDCG@10    = 0.04902 (0.00068)
+Test nDCG@15    = 0.05429 (0.00069)
+Test nDCG@20    = 0.05919 (0.00069)
+Test nDCG@25    = 0.06229 (0.00070)
+Test nDCG@50    = 0.07352 (0.00070)
+Test nDCG@75    = 0.07987 (0.00070)
+Test nDCG@100   = 0.08420 (0.00070)
+
+Test Recall@5   = 0.06134 (0.00091)
+Test Recall@10  = 0.08586 (0.00106)
+Test Recall@15  = 0.10583 (0.00117)
+Test Recall@20  = 0.12650 (0.00126)
+Test Recall@25  = 0.14069 (0.00132)
+Test Recall@50  = 0.19969 (0.00152)
+Test Recall@75  = 0.23752 (0.00162)
+Test Recall@100 = 0.26549 (0.00168)
+

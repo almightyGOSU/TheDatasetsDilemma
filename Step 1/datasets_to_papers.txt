@@ -1,0 +1,146 @@
+Netflix
+1, 2, 11, 14, 15, 16, 17, 19, 24, 31, 32, 34, 38, 41, 42, 43, 44, 46, 47
+
+ML-100K
+5, 6, 25, 36, 41, 44
+
+ML-1M
+6, 7, 9, 10, 12, 13, 15, 19, 22, 25, 33, 35, 36, 37, 40, 41, 42, 44
+
+ML-10M
+2, 3, 11, 31, 32, 41
+
+ML-20M
+14, 16, 24, 27, 34, 37, 38, 42, 43, 45, 46, 47
+
+Jester
+2, 11, 36
+
+Flixster
+2, 11
+
+Yelp
+6, 14, 17, 18, 20, 22, 23, 28, 29, 31, 32, 37, 46
+
+GoodReads (Comics)
+8
+
+BookCrossing
+10, 42
+
+Gowalla
+8, 20, 23, 28, 29, 30, 39, 48
+
+Epinions
+10, 14, 21, 44, 46
+
+CiteULike-a
+5, 21
+
+Million Song Dataset
+16, 34, 38, 43, 47
+
+Pinterest
+20, 21, 33, 35, 40
+
+RecSys Challenge 2017 (i.e., XING)
+26
+
+Last.fm 360K
+45
+
+Last.fm 1K
+19
+
+Meetup (NYC)
+37, 42
+
+IMDb
+42
+
+Twitter (WW)
+42
+
+Twitter (USA)
+42
+
+Amazon (Amazon Instant Video)
+13
+
+Amazon (Beauty)
+4
+
+Amazon (Books)
+8, 15, 17, 18, 22, 23, 26, 28, 29
+
+Amazon (CDs & Vinyl)
+4, 8, 10, 30
+
+Amazon (Electronics)
+8, 10, 30
+
+Amazon (Kindle Store)
+10
+
+Amazon (Movies & TV)
+4, 15, 30
+
+Amazon (Grocery & Gourmet Food)
+26
+
+Amazon (Pet Supplies)
+26
+
+Amazon (Video Games)
+26
+
+Amazon (Clothing, Shoes & Jewelry)
+37
+
+Amazon (Sports & Outdoors)
+37
+
+Amazon (Cell Phones & Accessories)
+37
+
+Amazon (Toys & Games)
+37
+
+Amazon (Automotive)
+37
+
+Amazon Fine Food
+3
+
+HetRec2011-ML-2K
+13
+
+HetRec2011-LastFM-2K
+31, 42
+
+HetRec2011-Delicious-2K
+42
+
+Yahoo! R1
+24
+
+Yahoo! R2
+15, 33
+
+Yahoo! R4
+9, 12
+
+FilmTrust
+10
+
+EachMovie
+12
+
+CiteULike-t
+48
+
+Goodbooks
+37
+
+Million Song Dataset (Taste Profile Subset)
+39

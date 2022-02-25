@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          631
+alpha:                         0
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.01s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.51s (0:00:06)
+
+Validation nDCG@10: 0.08588	Elapsed Time: 8.37s (0:00:08)
+
+
+<Best> Validation nDCG@10: 0.08588 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.07360 (0.00364)
+Test nDCG@10    = 0.08890 (0.00372)
+Test nDCG@15    = 0.09881 (0.00374)
+Test nDCG@20    = 0.10567 (0.00375)
+Test nDCG@25    = 0.11125 (0.00375)
+Test nDCG@50    = 0.12697 (0.00372)
+Test nDCG@75    = 0.13426 (0.00370)
+Test nDCG@100   = 0.14055 (0.00368)
+
+Test Recall@5   = 0.10472 (0.00485)
+Test Recall@10  = 0.15244 (0.00570)
+Test Recall@15  = 0.18985 (0.00622)
+Test Recall@20  = 0.21873 (0.00655)
+Test Recall@25  = 0.24485 (0.00681)
+Test Recall@50  = 0.32672 (0.00743)
+Test Recall@75  = 0.36991 (0.00765)
+Test Recall@100 = 0.41060 (0.00780)
+

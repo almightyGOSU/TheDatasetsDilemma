@@ -1,0 +1,326 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  batch_size: 500
+  beta: 0.1
+  chkpt_dir: ./chkpt/Yahoo! R4/vaecf
+  command: MultiVAE_train.py -d Yahoo! R4 -n_epochs 200 -num_hidden 1 -beta 0.1
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  early_stop: 20
+  n_epochs: 200
+  num_hidden: 1
+  random_seed: 1337
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+epochs:                        200
+hidden:                        1
+beta:                          0.1
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Training data loaded from './Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4/train.csv'..
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Start training...
+
+[Epoch 1/200]   Training Step Completed 	Elapsed Time: 1.61s (0:00:01)
+[Epoch 1/200]   Validation nDCG@10: 0.13989	Elapsed Time: 2.62s (0:00:02)
+[Epoch 1]       Validation nDCG@10: 0.13989	<Best> \o/\o/\o/
+
+[Epoch 2/200]   Training Step Completed 	Elapsed Time: 2.79s (0:00:02)
+[Epoch 2/200]   Validation nDCG@10: 0.14640	Elapsed Time: 3.57s (0:00:03)
+[Epoch 2]       Validation nDCG@10: 0.14640	<Best> \o/\o/\o/
+
+[Epoch 3/200]   Training Step Completed 	Elapsed Time: 3.84s (0:00:03)
+[Epoch 3/200]   Validation nDCG@10: 0.15843	Elapsed Time: 4.78s (0:00:04)
+[Epoch 3]       Validation nDCG@10: 0.15843	<Best> \o/\o/\o/
+
+[Epoch 4/200]   Training Step Completed 	Elapsed Time: 5.10s (0:00:05)
+[Epoch 4/200]   Validation nDCG@10: 0.15980	Elapsed Time: 5.87s (0:00:05)
+[Epoch 4]       Validation nDCG@10: 0.15980	<Best> \o/\o/\o/
+
+[Epoch 5/200]   Training Step Completed 	Elapsed Time: 6.09s (0:00:06)
+[Epoch 5/200]   Validation nDCG@10: 0.16378	Elapsed Time: 6.98s (0:00:06)
+[Epoch 5]       Validation nDCG@10: 0.16378	<Best> \o/\o/\o/
+
+[Epoch 6/200]   Training Step Completed 	Elapsed Time: 7.35s (0:00:07)
+[Epoch 6/200]   Validation nDCG@10: 0.16606	Elapsed Time: 8.14s (0:00:08)
+[Epoch 6]       Validation nDCG@10: 0.16606	<Best> \o/\o/\o/
+
+[Epoch 7/200]   Training Step Completed 	Elapsed Time: 8.43s (0:00:08)
+[Epoch 7/200]   Validation nDCG@10: 0.16888	Elapsed Time: 9.71s (0:00:09)
+[Epoch 7]       Validation nDCG@10: 0.16888	<Best> \o/\o/\o/
+
+[Epoch 8/200]   Training Step Completed 	Elapsed Time: 9.90s (0:00:09)
+[Epoch 8/200]   Validation nDCG@10: 0.17489	Elapsed Time: 10.71s (0:00:10)
+[Epoch 8]       Validation nDCG@10: 0.17489	<Best> \o/\o/\o/
+
+[Epoch 9/200]   Training Step Completed 	Elapsed Time: 11.00s (0:00:10)
+[Epoch 9/200]   Validation nDCG@10: 0.18059	Elapsed Time: 11.89s (0:00:11)
+[Epoch 9]       Validation nDCG@10: 0.18059	<Best> \o/\o/\o/
+
+[Epoch 10/200]  Training Step Completed 	Elapsed Time: 12.05s (0:00:12)
+[Epoch 10/200]  Validation nDCG@10: 0.18574	Elapsed Time: 12.80s (0:00:12)
+[Epoch 10]      Validation nDCG@10: 0.18574	<Best> \o/\o/\o/
+
+[Epoch 11/200]  Training Step Completed 	Elapsed Time: 12.98s (0:00:12)
+[Epoch 11/200]  Validation nDCG@10: 0.19337	Elapsed Time: 13.78s (0:00:13)
+[Epoch 11]      Validation nDCG@10: 0.19337	<Best> \o/\o/\o/
+
+[Epoch 12/200]  Training Step Completed 	Elapsed Time: 13.97s (0:00:13)
+[Epoch 12/200]  Validation nDCG@10: 0.19503	Elapsed Time: 15.14s (0:00:15)
+[Epoch 12]      Validation nDCG@10: 0.19503	<Best> \o/\o/\o/
+
+[Epoch 13/200]  Training Step Completed 	Elapsed Time: 15.38s (0:00:15)
+[Epoch 13/200]  Validation nDCG@10: 0.20132	Elapsed Time: 16.10s (0:00:16)
+[Epoch 13]      Validation nDCG@10: 0.20132	<Best> \o/\o/\o/
+
+[Epoch 14/200]  Training Step Completed 	Elapsed Time: 16.29s (0:00:16)
+[Epoch 14/200]  Validation nDCG@10: 0.20578	Elapsed Time: 17.08s (0:00:17)
+[Epoch 14]      Validation nDCG@10: 0.20578	<Best> \o/\o/\o/
+
+[Epoch 15/200]  Training Step Completed 	Elapsed Time: 17.38s (0:00:17)
+[Epoch 15/200]  Validation nDCG@10: 0.20710	Elapsed Time: 18.05s (0:00:18)
+[Epoch 15]      Validation nDCG@10: 0.20710	<Best> \o/\o/\o/
+
+[Epoch 16/200]  Training Step Completed 	Elapsed Time: 18.21s (0:00:18)
+[Epoch 16/200]  Validation nDCG@10: 0.21050	Elapsed Time: 19.22s (0:00:19)
+[Epoch 16]      Validation nDCG@10: 0.21050	<Best> \o/\o/\o/
+
+[Epoch 17/200]  Training Step Completed 	Elapsed Time: 19.40s (0:00:19)
+[Epoch 17/200]  Validation nDCG@10: 0.21148	Elapsed Time: 20.27s (0:00:20)
+[Epoch 17]      Validation nDCG@10: 0.21148	<Best> \o/\o/\o/
+
+[Epoch 18/200]  Training Step Completed 	Elapsed Time: 20.50s (0:00:20)
+[Epoch 18/200]  Validation nDCG@10: 0.21575	Elapsed Time: 21.58s (0:00:21)
+[Epoch 18]      Validation nDCG@10: 0.21575	<Best> \o/\o/\o/
+
+[Epoch 19/200]  Training Step Completed 	Elapsed Time: 21.88s (0:00:21)
+[Epoch 19/200]  Validation nDCG@10: 0.21671	Elapsed Time: 22.78s (0:00:22)
+[Epoch 19]      Validation nDCG@10: 0.21671	<Best> \o/\o/\o/
+
+[Epoch 20/200]  Training Step Completed 	Elapsed Time: 22.96s (0:00:22)
+[Epoch 20/200]  Validation nDCG@10: 0.21653	Elapsed Time: 23.70s (0:00:23)
+
+[Epoch 21/200]  Training Step Completed 	Elapsed Time: 23.85s (0:00:23)
+[Epoch 21/200]  Validation nDCG@10: 0.22078	Elapsed Time: 24.59s (0:00:24)
+[Epoch 21]      Validation nDCG@10: 0.22078	<Best> \o/\o/\o/
+
+[Epoch 22/200]  Training Step Completed 	Elapsed Time: 24.73s (0:00:24)
+[Epoch 22/200]  Validation nDCG@10: 0.22309	Elapsed Time: 25.49s (0:00:25)
+[Epoch 22]      Validation nDCG@10: 0.22309	<Best> \o/\o/\o/
+
+[Epoch 23/200]  Training Step Completed 	Elapsed Time: 25.75s (0:00:25)
+[Epoch 23/200]  Validation nDCG@10: 0.22537	Elapsed Time: 26.46s (0:00:26)
+[Epoch 23]      Validation nDCG@10: 0.22537	<Best> \o/\o/\o/
+
+[Epoch 24/200]  Training Step Completed 	Elapsed Time: 26.67s (0:00:26)
+[Epoch 24/200]  Validation nDCG@10: 0.22460	Elapsed Time: 27.56s (0:00:27)
+
+[Epoch 25/200]  Training Step Completed 	Elapsed Time: 27.72s (0:00:27)
+[Epoch 25/200]  Validation nDCG@10: 0.22554	Elapsed Time: 28.43s (0:00:28)
+[Epoch 25]      Validation nDCG@10: 0.22554	<Best> \o/\o/\o/
+
+[Epoch 26/200]  Training Step Completed 	Elapsed Time: 28.65s (0:00:28)
+[Epoch 26/200]  Validation nDCG@10: 0.22734	Elapsed Time: 29.27s (0:00:29)
+[Epoch 26]      Validation nDCG@10: 0.22734	<Best> \o/\o/\o/
+
+[Epoch 27/200]  Training Step Completed 	Elapsed Time: 29.46s (0:00:29)
+[Epoch 27/200]  Validation nDCG@10: 0.22937	Elapsed Time: 30.26s (0:00:30)
+[Epoch 27]      Validation nDCG@10: 0.22937	<Best> \o/\o/\o/
+
+[Epoch 28/200]  Training Step Completed 	Elapsed Time: 30.45s (0:00:30)
+[Epoch 28/200]  Validation nDCG@10: 0.23006	Elapsed Time: 31.13s (0:00:31)
+[Epoch 28]      Validation nDCG@10: 0.23006	<Best> \o/\o/\o/
+
+[Epoch 29/200]  Training Step Completed 	Elapsed Time: 31.31s (0:00:31)
+[Epoch 29/200]  Validation nDCG@10: 0.23126	Elapsed Time: 32.03s (0:00:32)
+[Epoch 29]      Validation nDCG@10: 0.23126	<Best> \o/\o/\o/
+
+[Epoch 30/200]  Training Step Completed 	Elapsed Time: 32.23s (0:00:32)
+[Epoch 30/200]  Validation nDCG@10: 0.23207	Elapsed Time: 32.87s (0:00:32)
+[Epoch 30]      Validation nDCG@10: 0.23207	<Best> \o/\o/\o/
+
+[Epoch 31/200]  Training Step Completed 	Elapsed Time: 33.07s (0:00:33)
+[Epoch 31/200]  Validation nDCG@10: 0.22974	Elapsed Time: 33.73s (0:00:33)
+
+[Epoch 32/200]  Training Step Completed 	Elapsed Time: 33.83s (0:00:33)
+[Epoch 32/200]  Validation nDCG@10: 0.23225	Elapsed Time: 34.56s (0:00:34)
+[Epoch 32]      Validation nDCG@10: 0.23225	<Best> \o/\o/\o/
+
+[Epoch 33/200]  Training Step Completed 	Elapsed Time: 34.83s (0:00:34)
+[Epoch 33/200]  Validation nDCG@10: 0.23061	Elapsed Time: 35.55s (0:00:35)
+
+[Epoch 34/200]  Training Step Completed 	Elapsed Time: 35.64s (0:00:35)
+[Epoch 34/200]  Validation nDCG@10: 0.23172	Elapsed Time: 36.50s (0:00:36)
+
+[Epoch 35/200]  Training Step Completed 	Elapsed Time: 36.61s (0:00:36)
+[Epoch 35/200]  Validation nDCG@10: 0.23025	Elapsed Time: 37.27s (0:00:37)
+
+[Epoch 36/200]  Training Step Completed 	Elapsed Time: 37.38s (0:00:37)
+[Epoch 36/200]  Validation nDCG@10: 0.23393	Elapsed Time: 37.97s (0:00:37)
+[Epoch 36]      Validation nDCG@10: 0.23393	<Best> \o/\o/\o/
+
+[Epoch 37/200]  Training Step Completed 	Elapsed Time: 38.13s (0:00:38)
+[Epoch 37/200]  Validation nDCG@10: 0.23288	Elapsed Time: 38.90s (0:00:38)
+
+[Epoch 38/200]  Training Step Completed 	Elapsed Time: 38.99s (0:00:38)
+[Epoch 38/200]  Validation nDCG@10: 0.23477	Elapsed Time: 39.73s (0:00:39)
+[Epoch 38]      Validation nDCG@10: 0.23477	<Best> \o/\o/\o/
+
+[Epoch 39/200]  Training Step Completed 	Elapsed Time: 39.89s (0:00:39)
+[Epoch 39/200]  Validation nDCG@10: 0.23509	Elapsed Time: 40.57s (0:00:40)
+[Epoch 39]      Validation nDCG@10: 0.23509	<Best> \o/\o/\o/
+
+[Epoch 40/200]  Training Step Completed 	Elapsed Time: 40.72s (0:00:40)
+[Epoch 40/200]  Validation nDCG@10: 0.23295	Elapsed Time: 41.51s (0:00:41)
+
+[Epoch 41/200]  Training Step Completed 	Elapsed Time: 41.61s (0:00:41)
+[Epoch 41/200]  Validation nDCG@10: 0.23213	Elapsed Time: 42.35s (0:00:42)
+
+[Epoch 42/200]  Training Step Completed 	Elapsed Time: 42.44s (0:00:42)
+[Epoch 42/200]  Validation nDCG@10: 0.23379	Elapsed Time: 43.14s (0:00:43)
+
+[Epoch 43/200]  Training Step Completed 	Elapsed Time: 43.26s (0:00:43)
+[Epoch 43/200]  Validation nDCG@10: 0.23497	Elapsed Time: 44.17s (0:00:44)
+
+[Epoch 44/200]  Training Step Completed 	Elapsed Time: 44.30s (0:00:44)
+[Epoch 44/200]  Validation nDCG@10: 0.23423	Elapsed Time: 44.92s (0:00:44)
+
+[Epoch 45/200]  Training Step Completed 	Elapsed Time: 45.03s (0:00:45)
+[Epoch 45/200]  Validation nDCG@10: 0.23435	Elapsed Time: 45.97s (0:00:45)
+
+[Epoch 46/200]  Training Step Completed 	Elapsed Time: 46.06s (0:00:46)
+[Epoch 46/200]  Validation nDCG@10: 0.23322	Elapsed Time: 46.80s (0:00:46)
+
+[Epoch 47/200]  Training Step Completed 	Elapsed Time: 46.90s (0:00:46)
+[Epoch 47/200]  Validation nDCG@10: 0.23372	Elapsed Time: 47.61s (0:00:47)
+
+[Epoch 48/200]  Training Step Completed 	Elapsed Time: 47.81s (0:00:47)
+[Epoch 48/200]  Validation nDCG@10: 0.23214	Elapsed Time: 48.70s (0:00:48)
+
+[Epoch 49/200]  Training Step Completed 	Elapsed Time: 48.79s (0:00:48)
+[Epoch 49/200]  Validation nDCG@10: 0.23245	Elapsed Time: 49.42s (0:00:49)
+
+[Epoch 50/200]  Training Step Completed 	Elapsed Time: 49.54s (0:00:49)
+[Epoch 50/200]  Validation nDCG@10: 0.23407	Elapsed Time: 50.33s (0:00:50)
+
+[Epoch 51/200]  Training Step Completed 	Elapsed Time: 50.43s (0:00:50)
+[Epoch 51/200]  Validation nDCG@10: 0.23386	Elapsed Time: 51.11s (0:00:51)
+
+[Epoch 52/200]  Training Step Completed 	Elapsed Time: 51.20s (0:00:51)
+[Epoch 52/200]  Validation nDCG@10: 0.23261	Elapsed Time: 51.87s (0:00:51)
+
+[Epoch 53/200]  Training Step Completed 	Elapsed Time: 51.96s (0:00:51)
+[Epoch 53/200]  Validation nDCG@10: 0.23558	Elapsed Time: 52.89s (0:00:52)
+[Epoch 53]      Validation nDCG@10: 0.23558	<Best> \o/\o/\o/
+
+[Epoch 54/200]  Training Step Completed 	Elapsed Time: 53.14s (0:00:53)
+[Epoch 54/200]  Validation nDCG@10: 0.23520	Elapsed Time: 53.79s (0:00:53)
+
+[Epoch 55/200]  Training Step Completed 	Elapsed Time: 53.93s (0:00:53)
+[Epoch 55/200]  Validation nDCG@10: 0.23391	Elapsed Time: 54.85s (0:00:54)
+
+[Epoch 56/200]  Training Step Completed 	Elapsed Time: 54.98s (0:00:54)
+[Epoch 56/200]  Validation nDCG@10: 0.23306	Elapsed Time: 55.75s (0:00:55)
+
+[Epoch 57/200]  Training Step Completed 	Elapsed Time: 55.83s (0:00:55)
+[Epoch 57/200]  Validation nDCG@10: 0.23529	Elapsed Time: 56.50s (0:00:56)
+
+[Epoch 58/200]  Training Step Completed 	Elapsed Time: 56.58s (0:00:56)
+[Epoch 58/200]  Validation nDCG@10: 0.23681	Elapsed Time: 57.33s (0:00:57)
+[Epoch 58]      Validation nDCG@10: 0.23681	<Best> \o/\o/\o/
+
+[Epoch 59/200]  Training Step Completed 	Elapsed Time: 57.50s (0:00:57)
+[Epoch 59/200]  Validation nDCG@10: 0.23435	Elapsed Time: 58.20s (0:00:58)
+
+[Epoch 60/200]  Training Step Completed 	Elapsed Time: 58.29s (0:00:58)
+[Epoch 60/200]  Validation nDCG@10: 0.23354	Elapsed Time: 59.07s (0:00:59)
+
+[Epoch 61/200]  Training Step Completed 	Elapsed Time: 59.15s (0:00:59)
+[Epoch 61/200]  Validation nDCG@10: 0.23348	Elapsed Time: 59.97s (0:00:59)
+
+[Epoch 62/200]  Training Step Completed 	Elapsed Time: 60.06s (0:01:00)
+[Epoch 62/200]  Validation nDCG@10: 0.23535	Elapsed Time: 60.70s (0:01:00)
+
+[Epoch 63/200]  Training Step Completed 	Elapsed Time: 60.84s (0:01:00)
+[Epoch 63/200]  Validation nDCG@10: 0.23456	Elapsed Time: 61.76s (0:01:01)
+
+[Epoch 64/200]  Training Step Completed 	Elapsed Time: 61.85s (0:01:01)
+[Epoch 64/200]  Validation nDCG@10: 0.23325	Elapsed Time: 62.50s (0:01:02)
+
+[Epoch 65/200]  Training Step Completed 	Elapsed Time: 62.58s (0:01:02)
+[Epoch 65/200]  Validation nDCG@10: 0.23330	Elapsed Time: 63.29s (0:01:03)
+
+[Epoch 66/200]  Training Step Completed 	Elapsed Time: 63.48s (0:01:03)
+[Epoch 66/200]  Validation nDCG@10: 0.23303	Elapsed Time: 64.15s (0:01:04)
+
+[Epoch 67/200]  Training Step Completed 	Elapsed Time: 64.28s (0:01:04)
+[Epoch 67/200]  Validation nDCG@10: 0.23458	Elapsed Time: 64.97s (0:01:04)
+
+[Epoch 68/200]  Training Step Completed 	Elapsed Time: 65.08s (0:01:05)
+[Epoch 68/200]  Validation nDCG@10: 0.23472	Elapsed Time: 65.79s (0:01:05)
+
+[Epoch 69/200]  Training Step Completed 	Elapsed Time: 65.99s (0:01:05)
+[Epoch 69/200]  Validation nDCG@10: 0.23267	Elapsed Time: 66.77s (0:01:06)
+
+[Epoch 70/200]  Training Step Completed 	Elapsed Time: 66.86s (0:01:06)
+[Epoch 70/200]  Validation nDCG@10: 0.23102	Elapsed Time: 67.52s (0:01:07)
+
+[Epoch 71/200]  Training Step Completed 	Elapsed Time: 67.60s (0:01:07)
+[Epoch 71/200]  Validation nDCG@10: 0.23365	Elapsed Time: 68.40s (0:01:08)
+
+[Epoch 72/200]  Training Step Completed 	Elapsed Time: 68.51s (0:01:08)
+[Epoch 72/200]  Validation nDCG@10: 0.23258	Elapsed Time: 69.19s (0:01:09)
+
+[Epoch 73/200]  Training Step Completed 	Elapsed Time: 69.30s (0:01:09)
+[Epoch 73/200]  Validation nDCG@10: 0.23386	Elapsed Time: 70.01s (0:01:10)
+
+[Epoch 74/200]  Training Step Completed 	Elapsed Time: 70.09s (0:01:10)
+[Epoch 74/200]  Validation nDCG@10: 0.23440	Elapsed Time: 70.81s (0:01:10)
+
+[Epoch 75/200]  Training Step Completed 	Elapsed Time: 70.91s (0:01:10)
+[Epoch 75/200]  Validation nDCG@10: 0.23121	Elapsed Time: 71.58s (0:01:11)
+
+[Epoch 76/200]  Training Step Completed 	Elapsed Time: 71.67s (0:01:11)
+[Epoch 76/200]  Validation nDCG@10: 0.23408	Elapsed Time: 72.43s (0:01:12)
+
+[Epoch 77/200]  Training Step Completed 	Elapsed Time: 72.52s (0:01:12)
+[Epoch 77/200]  Validation nDCG@10: 0.23287	Elapsed Time: 73.22s (0:01:13)
+
+[Epoch 78/200]  Training Step Completed 	Elapsed Time: 73.34s (0:01:13)
+[Epoch 78/200]  Validation nDCG@10: 0.23315	Elapsed Time: 74.03s (0:01:14)
+
+>>> MODEL performance, in terms of the best validation nDCG@10, has stopped improving!
+>>> Best validation nDCG@10 of 0.23681 was obtained after training for 58 epochs!
+>>> Now, validation nDCG@10 of 0.23315  is obtained after training for 78 epochs!
+>>> Given that there is NO improvement after 20 successive epochs, we are prematurely stopping the model!!!
+
+
+<Best> Validation nDCG@10: 0.23681 (Epoch 58)
+
+
+
+Test nDCG@5     = 0.18836 (0.00380)
+Test nDCG@10    = 0.22460 (0.00374)
+Test nDCG@15    = 0.24381 (0.00367)
+Test nDCG@20    = 0.25513 (0.00362)
+Test nDCG@25    = 0.26344 (0.00357)
+Test nDCG@50    = 0.28333 (0.00344)
+Test nDCG@75    = 0.29176 (0.00338)
+Test nDCG@100   = 0.29719 (0.00333)
+
+Test Recall@5   = 0.27507 (0.00512)
+Test Recall@10  = 0.38753 (0.00558)
+Test Recall@15  = 0.45997 (0.00571)
+Test Recall@20  = 0.50787 (0.00573)
+Test Recall@25  = 0.54580 (0.00570)
+Test Recall@50  = 0.64869 (0.00547)
+Test Recall@75  = 0.69895 (0.00525)
+Test Recall@100 = 0.73399 (0.00506)
+
+
+Model w/ the best validation nDCG@10 of '0.23681' was loaded from './chkpt/Yahoo! R4/vaecf/model'..
+

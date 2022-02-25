@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         0
+beta:                          0.65378
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.19s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 27.42s (0:00:27)
+
+Validation nDCG@10: 0.04334	Elapsed Time: 44.79s (0:00:44)
+
+
+<Best> Validation nDCG@10: 0.04334 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02698 (0.00051)
+Test nDCG@10    = 0.03723 (0.00055)
+Test nDCG@15    = 0.04402 (0.00056)
+Test nDCG@20    = 0.04980 (0.00057)
+Test nDCG@25    = 0.05423 (0.00058)
+Test nDCG@50    = 0.06906 (0.00059)
+Test nDCG@75    = 0.07775 (0.00059)
+Test nDCG@100   = 0.08367 (0.00059)
+
+Test Recall@5   = 0.04365 (0.00077)
+Test Recall@10  = 0.07562 (0.00100)
+Test Recall@15  = 0.10135 (0.00114)
+Test Recall@20  = 0.12585 (0.00125)
+Test Recall@25  = 0.14620 (0.00134)
+Test Recall@50  = 0.22350 (0.00158)
+Test Recall@75  = 0.27528 (0.00169)
+Test Recall@100 = 0.31336 (0.00175)
+

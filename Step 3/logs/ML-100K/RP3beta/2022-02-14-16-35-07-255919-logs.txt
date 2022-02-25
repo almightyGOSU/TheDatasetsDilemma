@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-100K -m RP3beta
+  dataDir: ../Datasets/Preprocessed/ML-100K
+  dataset: ML-100K
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0.2488
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 943
+Number of Items: 1,349
+
+Number of Training Samples: 97,401
+trainData's shape: (943, 1349)
+
+Number of Validation Samples: 943
+validationData's shape: (943, 1349)
+
+Number of Testing Samples: 943
+testData's shape: (943, 1349)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 1.76s (0:00:01)
+
+Obtained all user-item scores!	Elapsed Time: 2.06s (0:00:02)
+
+Validation nDCG@10: 0.05270	Elapsed Time: 2.09s (0:00:02)
+
+
+<Best> Validation nDCG@10: 0.05270 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04459 (0.00570)
+Test nDCG@10    = 0.05582 (0.00592)
+Test nDCG@15    = 0.06587 (0.00605)
+Test nDCG@20    = 0.07118 (0.00610)
+Test nDCG@25    = 0.07629 (0.00613)
+Test nDCG@50    = 0.09511 (0.00616)
+Test nDCG@75    = 0.10862 (0.00612)
+Test nDCG@100   = 0.11668 (0.00607)
+
+Test Recall@5   = 0.06893 (0.00825)
+Test Recall@10  = 0.10392 (0.00994)
+Test Recall@15  = 0.14210 (0.01137)
+Test Recall@20  = 0.16437 (0.01207)
+Test Recall@25  = 0.18770 (0.01272)
+Test Recall@50  = 0.28738 (0.01474)
+Test Recall@75  = 0.36797 (0.01570)
+Test Recall@100 = 0.41994 (0.01607)
+
+End of Program!	Elapsed Time: 2.31s (0:00:02)
+

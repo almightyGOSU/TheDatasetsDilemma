@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Beauty) -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Beauty)
+  dataset: Amazon (Beauty)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          662
+alpha:                         0.18621
+beta:                          0.19653
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 22,363
+Number of Items: 12,102
+
+Number of Training Samples: 153,776
+trainData's shape: (22363, 12102)
+
+Number of Validation Samples: 22,363
+validationData's shape: (22363, 12102)
+
+Number of Testing Samples: 22,363
+testData's shape: (22363, 12102)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 3.91s (0:00:03)
+
+Validation nDCG@10: 0.04987	Elapsed Time: 11.59s (0:00:11)
+
+
+<Best> Validation nDCG@10: 0.04987 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02138 (0.00082)
+Test nDCG@10    = 0.02763 (0.00086)
+Test nDCG@15    = 0.03113 (0.00088)
+Test nDCG@20    = 0.03381 (0.00089)
+Test nDCG@25    = 0.03573 (0.00090)
+Test nDCG@50    = 0.04173 (0.00092)
+Test nDCG@75    = 0.04552 (0.00093)
+Test nDCG@100   = 0.04804 (0.00093)
+
+Test Recall@5   = 0.03394 (0.00121)
+Test Recall@10  = 0.05335 (0.00150)
+Test Recall@15  = 0.06667 (0.00167)
+Test Recall@20  = 0.07803 (0.00179)
+Test Recall@25  = 0.08675 (0.00188)
+Test Recall@50  = 0.11805 (0.00216)
+Test Recall@75  = 0.14072 (0.00233)
+Test Recall@100 = 0.15691 (0.00243)
+

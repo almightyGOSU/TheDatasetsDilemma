@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Movies & TV) -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Movies & TV)
+  dataset: Amazon (Movies & TV)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 123,960
+Number of Items: 50,052
+
+Number of Training Samples: 1,449,613
+trainData's shape: (123960, 50052)
+
+Number of Validation Samples: 123,960
+validationData's shape: (123960, 50052)
+
+Number of Testing Samples: 123,960
+testData's shape: (123960, 50052)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.02s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 140.98s (0:02:20)
+
+Validation nDCG@10: 0.04682	Elapsed Time: 341.73s (0:05:41)
+
+
+<Best> Validation nDCG@10: 0.04682 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02142 (0.00035)
+Test nDCG@10    = 0.02717 (0.00036)
+Test nDCG@15    = 0.03064 (0.00037)
+Test nDCG@20    = 0.03325 (0.00038)
+Test nDCG@25    = 0.03529 (0.00038)
+Test nDCG@50    = 0.04223 (0.00039)
+Test nDCG@75    = 0.04657 (0.00039)
+Test nDCG@100   = 0.04981 (0.00039)
+
+Test Recall@5   = 0.03385 (0.00051)
+Test Recall@10  = 0.05175 (0.00063)
+Test Recall@15  = 0.06483 (0.00070)
+Test Recall@20  = 0.07588 (0.00075)
+Test Recall@25  = 0.08526 (0.00079)
+Test Recall@50  = 0.12119 (0.00093)
+Test Recall@75  = 0.14717 (0.00101)
+Test Recall@100 = 0.16795 (0.00106)
+
+End of Program!	Elapsed Time: 1,240.78s (0:20:40)
+

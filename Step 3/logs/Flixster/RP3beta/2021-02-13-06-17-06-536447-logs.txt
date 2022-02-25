@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          711
+alpha:                         2
+beta:                          0.27127
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.20s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 115.06s (0:01:55)
+
+Validation nDCG@10: 0.12961	Elapsed Time: 180.55s (0:03:00)
+
+
+<Best> Validation nDCG@10: 0.12961 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04208 (0.00061)
+Test nDCG@10    = 0.06107 (0.00065)
+Test nDCG@15    = 0.07327 (0.00067)
+Test nDCG@20    = 0.08193 (0.00068)
+Test nDCG@25    = 0.08758 (0.00068)
+Test nDCG@50    = 0.10476 (0.00068)
+Test nDCG@75    = 0.11501 (0.00068)
+Test nDCG@100   = 0.12200 (0.00067)
+
+Test Recall@5   = 0.07364 (0.00099)
+Test Recall@10  = 0.13322 (0.00129)
+Test Recall@15  = 0.17935 (0.00146)
+Test Recall@20  = 0.21598 (0.00156)
+Test Recall@25  = 0.24182 (0.00163)
+Test Recall@50  = 0.33124 (0.00179)
+Test Recall@75  = 0.39245 (0.00185)
+Test Recall@100 = 0.43760 (0.00188)
+

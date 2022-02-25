@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0.98108
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 11.25s (0:00:11)
+
+Validation nDCG@10: 0.09451	Elapsed Time: 13.92s (0:00:13)
+
+
+<Best> Validation nDCG@10: 0.09451 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.07623 (0.00361)
+Test nDCG@10    = 0.09428 (0.00370)
+Test nDCG@15    = 0.10488 (0.00372)
+Test nDCG@20    = 0.11341 (0.00373)
+Test nDCG@25    = 0.11889 (0.00374)
+Test nDCG@50    = 0.13598 (0.00369)
+Test nDCG@75    = 0.14615 (0.00365)
+Test nDCG@100   = 0.15237 (0.00362)
+
+Test Recall@5   = 0.11426 (0.00504)
+Test Recall@10  = 0.17102 (0.00597)
+Test Recall@15  = 0.21120 (0.00647)
+Test Recall@20  = 0.24711 (0.00684)
+Test Recall@25  = 0.27147 (0.00705)
+Test Recall@50  = 0.36163 (0.00761)
+Test Recall@75  = 0.42215 (0.00783)
+Test Recall@100 = 0.46183 (0.00790)
+

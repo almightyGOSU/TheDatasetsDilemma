@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    65
+factors:                       199
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (3783, 7620)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 4.56s (0:00:04)
+
+Validation nDCG@10: 0.16462	Elapsed Time: 24.42s (0:00:24)
+
+
+<Best> Validation nDCG@10: 0.16462 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.13614 (0.00337)
+Test nDCG@10    = 0.16120 (0.00338)
+Test nDCG@15    = 0.17554 (0.00336)
+Test nDCG@20    = 0.18508 (0.00334)
+Test nDCG@25    = 0.19148 (0.00332)
+Test nDCG@50    = 0.20847 (0.00325)
+Test nDCG@75    = 0.21620 (0.00321)
+Test nDCG@100   = 0.22115 (0.00318)
+
+Test Recall@5   = 0.20026 (0.00458)
+Test Recall@10  = 0.27822 (0.00513)
+Test Recall@15  = 0.33255 (0.00540)
+Test Recall@20  = 0.37283 (0.00554)
+Test Recall@25  = 0.40210 (0.00562)
+Test Recall@50  = 0.49029 (0.00573)
+Test Recall@75  = 0.53635 (0.00571)
+Test Recall@100 = 0.56824 (0.00567)
+

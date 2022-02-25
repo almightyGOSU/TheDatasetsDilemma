@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Digital Music) -m UserKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Digital Music)
+  dataset: Amazon (Digital Music)
+  model: UserKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          594
+shrink:                        338
+similarity:                    cosine
+normalize:                     False
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 5,541
+Number of Items: 3,568
+
+Number of Training Samples: 53,624
+trainData's shape: (5541, 3568)
+
+Number of Validation Samples: 5,541
+validationData's shape: (5541, 3568)
+
+Number of Testing Samples: 5,541
+testData's shape: (5541, 3568)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'UserKNNCF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'UserKNNCF'..
+'UserKNNCF' fitted! Elapsed Time: 2.46s (0:00:02)
+
+Validation nDCG@10: 0.09537	Elapsed Time: 5.86s (0:00:05)
+
+
+<Best> Validation nDCG@10: 0.09537 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.05476 (0.00259)
+Test nDCG@10    = 0.06693 (0.00267)
+Test nDCG@15    = 0.07538 (0.00271)
+Test nDCG@20    = 0.08214 (0.00273)
+Test nDCG@25    = 0.08694 (0.00273)
+Test nDCG@50    = 0.10304 (0.00275)
+Test nDCG@75    = 0.11244 (0.00272)
+Test nDCG@100   = 0.11922 (0.00269)
+
+Test Recall@5   = 0.08392 (0.00372)
+Test Recall@10  = 0.12272 (0.00441)
+Test Recall@15  = 0.15394 (0.00485)
+Test Recall@20  = 0.18210 (0.00518)
+Test Recall@25  = 0.20357 (0.00541)
+Test Recall@50  = 0.28551 (0.00607)
+Test Recall@75  = 0.34380 (0.00638)
+Test Recall@100 = 0.38892 (0.00655)
+

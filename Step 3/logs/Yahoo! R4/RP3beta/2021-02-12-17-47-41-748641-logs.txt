@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          214
+alpha:                         1.06692
+beta:                          0.61726
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.03s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 2.97s (0:00:02)
+
+Validation nDCG@10: 0.22622	Elapsed Time: 4.42s (0:00:04)
+
+
+<Best> Validation nDCG@10: 0.22622 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.18688 (0.00382)
+Test nDCG@10    = 0.22340 (0.00377)
+Test nDCG@15    = 0.24049 (0.00371)
+Test nDCG@20    = 0.25340 (0.00365)
+Test nDCG@25    = 0.26180 (0.00360)
+Test nDCG@50    = 0.28122 (0.00348)
+Test nDCG@75    = 0.28917 (0.00342)
+Test nDCG@100   = 0.29405 (0.00338)
+
+Test Recall@5   = 0.26969 (0.00508)
+Test Recall@10  = 0.38281 (0.00557)
+Test Recall@15  = 0.44724 (0.00570)
+Test Recall@20  = 0.50210 (0.00573)
+Test Recall@25  = 0.54055 (0.00571)
+Test Recall@50  = 0.64147 (0.00549)
+Test Recall@75  = 0.68858 (0.00530)
+Test Recall@100 = 0.72008 (0.00514)
+

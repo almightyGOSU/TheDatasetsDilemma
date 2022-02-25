@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          437
+alpha:                         0.03092
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 3.48s (0:00:03)
+
+Validation nDCG@10: 0.18759	Elapsed Time: 4.97s (0:00:04)
+
+
+<Best> Validation nDCG@10: 0.18759 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.15364 (0.00350)
+Test nDCG@10    = 0.18580 (0.00349)
+Test nDCG@15    = 0.20408 (0.00344)
+Test nDCG@20    = 0.21613 (0.00340)
+Test nDCG@25    = 0.22483 (0.00336)
+Test nDCG@50    = 0.24884 (0.00323)
+Test nDCG@75    = 0.25808 (0.00317)
+Test nDCG@100   = 0.26390 (0.00312)
+
+Test Recall@5   = 0.22795 (0.00481)
+Test Recall@10  = 0.32782 (0.00538)
+Test Recall@15  = 0.39685 (0.00560)
+Test Recall@20  = 0.44764 (0.00570)
+Test Recall@25  = 0.48780 (0.00573)
+Test Recall@50  = 0.61155 (0.00558)
+Test Recall@75  = 0.66680 (0.00540)
+Test Recall@100 = 0.70394 (0.00523)
+

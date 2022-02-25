@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Last.fm 360K -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Last.fm 360K
+  dataset: Last.fm 360K
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          742
+alpha:                         0.3199
+beta:                          1.7253
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 358,592
+Number of Items: 87,627
+
+Number of Training Samples: 16,454,422
+trainData's shape: (358592, 87627)
+
+Number of Validation Samples: 358,592
+validationData's shape: (358592, 87627)
+
+Number of Testing Samples: 358,592
+testData's shape: (358592, 87627)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.44s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 260.46s (0:04:20)
+
+Validation nDCG@10: 0.00187	Elapsed Time: 1,095.30s (0:18:15)
+
+
+<Best> Validation nDCG@10: 0.00187 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00147 (0.00006)
+Test nDCG@10    = 0.00186 (0.00006)
+Test nDCG@15    = 0.00212 (0.00006)
+Test nDCG@20    = 0.00235 (0.00006)
+Test nDCG@25    = 0.00253 (0.00006)
+Test nDCG@50    = 0.00319 (0.00007)
+Test nDCG@75    = 0.00364 (0.00007)
+Test nDCG@100   = 0.00401 (0.00007)
+
+Test Recall@5   = 0.00219 (0.00008)
+Test Recall@10  = 0.00340 (0.00010)
+Test Recall@15  = 0.00440 (0.00011)
+Test Recall@20  = 0.00535 (0.00012)
+Test Recall@25  = 0.00618 (0.00013)
+Test Recall@50  = 0.00965 (0.00016)
+Test Recall@75  = 0.01231 (0.00018)
+Test Recall@100 = 0.01473 (0.00020)
+
+End of Program!	Elapsed Time: 4,268.18s (1:11:08)
+

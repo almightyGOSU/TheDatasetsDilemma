@@ -1,0 +1,23 @@
+Filename:        2021-02-12-14-15-37-860456
+Command:         150, 1000, cosine, True, none
+
+Val nDCG@10:     0.06447
+
+Test nDCG@5:     0.02410 (0.00302)
+Test nDCG@10:    0.03012 (0.00317)
+Test nDCG@15:    0.03647 (0.00328)
+Test nDCG@20:    0.04092 (0.00335)
+Test nDCG@25:    0.04484 (0.00340)
+Test nDCG@50:    0.05682 (0.00348)
+Test nDCG@75:    0.06533 (0.00351)
+Test nDCG@100:   0.07402 (0.00353)
+
+Test Recall@5:   0.04152 (0.00486)
+Test Recall@10:  0.06050 (0.00581)
+Test Recall@15:  0.08482 (0.00679)
+Test Recall@20:  0.10320 (0.00741)
+Test Recall@25:  0.12100 (0.00794)
+Test Recall@50:  0.18387 (0.00943)
+Test Recall@75:  0.23488 (0.01032)
+Test Recall@100: 0.29063 (0.01106)
+

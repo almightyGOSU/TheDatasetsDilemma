@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    60
+factors:                       100
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (10196, 69878)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 114.84s (0:01:54)
+
+Validation nDCG@10: 0.03497	Elapsed Time: 203.61s (0:03:23)
+
+
+<Best> Validation nDCG@10: 0.03497 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02112 (0.00044)
+Test nDCG@10    = 0.03141 (0.00049)
+Test nDCG@15    = 0.03959 (0.00051)
+Test nDCG@20    = 0.04658 (0.00052)
+Test nDCG@25    = 0.05250 (0.00053)
+Test nDCG@50    = 0.07328 (0.00055)
+Test nDCG@75    = 0.08673 (0.00055)
+Test nDCG@100   = 0.09668 (0.00055)
+
+Test Recall@5   = 0.03593 (0.00070)
+Test Recall@10  = 0.06812 (0.00095)
+Test Recall@15  = 0.09912 (0.00113)
+Test Recall@20  = 0.12872 (0.00127)
+Test Recall@25  = 0.15584 (0.00137)
+Test Recall@50  = 0.26429 (0.00167)
+Test Recall@75  = 0.34460 (0.00180)
+Test Recall@100 = 0.40888 (0.00186)
+

@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Beauty) -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Beauty)
+  dataset: Amazon (Beauty)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    2
+factors:                       127
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 22,363
+Number of Items: 12,102
+
+Number of Training Samples: 153,776
+trainData's shape: (12102, 22363)
+
+Number of Validation Samples: 22,363
+validationData's shape: (22363, 12102)
+
+Number of Testing Samples: 22,363
+testData's shape: (22363, 12102)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 1.75s (0:00:01)
+
+Validation nDCG@10: 0.03296	Elapsed Time: 16.28s (0:00:16)
+
+
+<Best> Validation nDCG@10: 0.03296 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01419 (0.00068)
+Test nDCG@10    = 0.01894 (0.00072)
+Test nDCG@15    = 0.02152 (0.00074)
+Test nDCG@20    = 0.02401 (0.00075)
+Test nDCG@25    = 0.02593 (0.00076)
+Test nDCG@50    = 0.03179 (0.00078)
+Test nDCG@75    = 0.03498 (0.00079)
+Test nDCG@100   = 0.03736 (0.00080)
+
+Test Recall@5   = 0.02200 (0.00098)
+Test Recall@10  = 0.03676 (0.00126)
+Test Recall@15  = 0.04651 (0.00141)
+Test Recall@20  = 0.05701 (0.00155)
+Test Recall@25  = 0.06582 (0.00166)
+Test Recall@50  = 0.09628 (0.00197)
+Test Recall@75  = 0.11537 (0.00214)
+Test Recall@100 = 0.13071 (0.00225)
+

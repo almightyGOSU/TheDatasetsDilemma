@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    74
+factors:                       198
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (6590, 3982)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 3.86s (0:00:03)
+
+Validation nDCG@10: 0.09205	Elapsed Time: 15.76s (0:00:15)
+
+
+<Best> Validation nDCG@10: 0.09205 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.07989 (0.00374)
+Test nDCG@10    = 0.09708 (0.00382)
+Test nDCG@15    = 0.10614 (0.00384)
+Test nDCG@20    = 0.11472 (0.00384)
+Test nDCG@25    = 0.11993 (0.00384)
+Test nDCG@50    = 0.13500 (0.00381)
+Test nDCG@75    = 0.14235 (0.00378)
+Test nDCG@100   = 0.14687 (0.00376)
+
+Test Recall@5   = 0.11652 (0.00508)
+Test Recall@10  = 0.17027 (0.00596)
+Test Recall@15  = 0.20442 (0.00639)
+Test Recall@20  = 0.24083 (0.00678)
+Test Recall@25  = 0.26469 (0.00699)
+Test Recall@50  = 0.34279 (0.00752)
+Test Recall@75  = 0.38649 (0.00772)
+Test Recall@100 = 0.41562 (0.00781)
+

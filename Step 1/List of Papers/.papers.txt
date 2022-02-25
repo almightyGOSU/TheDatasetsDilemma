@@ -1,0 +1,50 @@
+Total # of Papers: 48
+
+KDD    	 2018 	 Distributed Collaborative Hashing and Its Applications in Ant Financial
+KDD    	 2018 	 Local Latent Space Models for Top-N Recommendation
+KDD    	 2019 	 λOpt: Learn to Regularize Recommender Models in Finer Levels
+KDD    	 2020 	 A Framework for Recommending Accurate and Diverse Items Using Bayesian Graph Convolutional Neural Networks
+KDD    	 2020 	 Dual Channel Hypergraph Collaborative Filtering
+KDD    	 2020 	 FedFast: Going Beyond Average for Faster Training of Federated Recommender Systems
+KDD    	 2020 	 Neural Input Search for Large Scale Recommendation Models
+KDD    	 2020 	 Probabilistic Metric Learning with Adaptive Margin for Top-K Recommendation
+RecSys 	 2016 	 A Coverage-Based Approach to Recommendation Diversity On Similarity Graph
+RecSys 	 2016 	 Efficient Bayesian Methods for Graph-based Recommendation
+RecSys 	 2016 	 Local Item-Item Models For Top-N Recommendation
+RecSys 	 2017 	 MPR: Multi-Objective Pairwise Ranking
+RecSys 	 2018 	 Spectral Collaborative Filtering
+RecSys 	 2019 	 Deep Generative Ranking for Personalized Recommendation
+RecSys 	 2019 	 Personalized Diffusions for Top-N Recommendation
+RecSys 	 2019 	 Variational Low Rank Multinomials for Collaborative Filtering with Side-Information
+SIGIR  	 2016 	 Discrete Collaborative Filtering
+SIGIR  	 2016 	 Fast Matrix Factorization for Online Recommendation with Implicit Feedback
+SIGIR  	 2017 	 A Probabilistic Reformulation of Memory-Based Collaborative Filtering: Implications on Popularity Biases
+SIGIR  	 2018 	 Adversarial Personalized Ranking for Recommendation
+SIGIR  	 2018 	 Collaborative Memory Network for Recommendation Systems
+SIGIR  	 2019 	 Compositional Coding for Collaborative Filtering
+SIGIR  	 2019 	 Neural Graph Collaborative Filtering
+SIGIR  	 2019 	 Noise Contrastive Estimation for One-Class Collaborative Filtering
+SIGIR  	 2020 	 AR-CF: Augmenting Virtual Users and Items in Collaborative Filtering for Addressing Cold-Start Problems
+SIGIR  	 2020 	 Beyond User Embedding Matrix: Learning to Hash for Modeling Large-Scale Users in Recommendation
+SIGIR  	 2020 	 DPLCF: Differentially Private Local Collaborative Filtering
+SIGIR  	 2020 	 Disentangled Graph Collaborative Filtering
+SIGIR  	 2020 	 LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation
+SIGIR  	 2020 	 Neighbor Interaction Aware Graph Convolution Networks for Recommendation
+WSDM   	 2016 	 CCCF: Improving Collaborative Filtering via Scalable User-Item Co-Clustering
+WSDM   	 2016 	 Collaborative Denoising Auto-Encoders for Top-N Recommender Systems
+WSDM   	 2019 	 RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation
+WSDM   	 2020 	 ADMM SLIM: Sparse Recommendations for Many Users
+WSDM   	 2020 	 Distilling Structured Knowledge into Embeddings for Explainable and Accurate Recommendation
+WSDM   	 2020 	 End-to-End Deep Reinforcement Learning based Recommendation with Supervised Embedding
+WSDM   	 2020 	 HyperML: A Boosting Metric Learning Approach in Hyperbolic Space for Recommender Systems
+WSDM   	 2020 	 RecVAE: A New Variational Autoencoder for Top-N Recommendations with Implicit Feedback
+WWW    	 2016 	 Modeling User Exposure in Recommendation
+WWW    	 2017 	 Neural Collaborative Filtering
+WWW    	 2018 	 AdaError: An Adaptive Learning Rate Method for Matrix Approximation-based Collaborative Filtering
+WWW    	 2018 	 Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking
+WWW    	 2018 	 Variational Autoencoders for Collaborative Filtering
+WWW    	 2019 	 Signed Distance-based Deep Memory Recommender
+WWW    	 2020 	 Clustering and Constructing User Coresets to Accelerate Large-scale Top-K Recommender Systems
+WWW    	 2020 	 Deep Global and Local Generative Model for Recommendation
+WWW    	 2020 	 Learning the Structure of Auto-Encoding Recommenders
+WWW    	 2020 	 LightRec: A Memory and Search-Efficient Recommender System

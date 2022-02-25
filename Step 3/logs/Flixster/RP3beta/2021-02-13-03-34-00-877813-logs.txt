@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         1.17583
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.38s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 78.86s (0:01:18)
+
+Validation nDCG@10: 0.06125	Elapsed Time: 137.72s (0:02:17)
+
+
+<Best> Validation nDCG@10: 0.06125 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01969 (0.00047)
+Test nDCG@10    = 0.02181 (0.00048)
+Test nDCG@15    = 0.02280 (0.00048)
+Test nDCG@20    = 0.02375 (0.00048)
+Test nDCG@25    = 0.02446 (0.00049)
+Test nDCG@50    = 0.02877 (0.00050)
+Test nDCG@75    = 0.03707 (0.00051)
+Test nDCG@100   = 0.04094 (0.00052)
+
+Test Recall@5   = 0.02784 (0.00062)
+Test Recall@10  = 0.03425 (0.00069)
+Test Recall@15  = 0.03800 (0.00073)
+Test Recall@20  = 0.04158 (0.00076)
+Test Recall@25  = 0.04495 (0.00079)
+Test Recall@50  = 0.06663 (0.00095)
+Test Recall@75  = 0.10940 (0.00119)
+Test Recall@100 = 0.12908 (0.00127)
+

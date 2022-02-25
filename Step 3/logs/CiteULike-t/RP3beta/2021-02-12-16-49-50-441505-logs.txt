@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         2
+beta:                          2
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.01s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 9.36s (0:00:09)
+
+Validation nDCG@10: 0.03446	Elapsed Time: 11.87s (0:00:11)
+
+
+<Best> Validation nDCG@10: 0.03446 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02959 (0.00229)
+Test nDCG@10    = 0.03741 (0.00239)
+Test nDCG@15    = 0.04263 (0.00244)
+Test nDCG@20    = 0.04586 (0.00247)
+Test nDCG@25    = 0.04913 (0.00249)
+Test nDCG@50    = 0.05888 (0.00253)
+Test nDCG@75    = 0.06484 (0.00255)
+Test nDCG@100   = 0.06997 (0.00255)
+
+Test Recall@5   = 0.04545 (0.00330)
+Test Recall@10  = 0.06981 (0.00404)
+Test Recall@15  = 0.08965 (0.00453)
+Test Recall@20  = 0.10296 (0.00482)
+Test Recall@25  = 0.11828 (0.00512)
+Test Recall@50  = 0.16901 (0.00594)
+Test Recall@75  = 0.20442 (0.00639)
+Test Recall@100 = 0.23782 (0.00675)
+

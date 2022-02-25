@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Last.fm 360K -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Last.fm 360K
+  dataset: Last.fm 360K
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    2
+factors:                       101
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 358,592
+Number of Items: 87,627
+
+Number of Training Samples: 16,454,422
+trainData's shape: (87627, 358592)
+
+Number of Validation Samples: 358,592
+validationData's shape: (358592, 87627)
+
+Number of Testing Samples: 358,592
+testData's shape: (358592, 87627)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 128.74s (0:02:08)
+
+Validation nDCG@10: 0.08147	Elapsed Time: 1,171.61s (0:19:31)
+
+
+<Best> Validation nDCG@10: 0.08147 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.06673 (0.00036)
+Test nDCG@10    = 0.08164 (0.00037)
+Test nDCG@15    = 0.09063 (0.00038)
+Test nDCG@20    = 0.09718 (0.00038)
+Test nDCG@25    = 0.10230 (0.00038)
+Test nDCG@50    = 0.11812 (0.00038)
+Test nDCG@75    = 0.12748 (0.00037)
+Test nDCG@100   = 0.13405 (0.00037)
+
+Test Recall@5   = 0.09775 (0.00050)
+Test Recall@10  = 0.14414 (0.00059)
+Test Recall@15  = 0.17816 (0.00064)
+Test Recall@20  = 0.20589 (0.00068)
+Test Recall@25  = 0.22931 (0.00070)
+Test Recall@50  = 0.31174 (0.00077)
+Test Recall@75  = 0.36763 (0.00081)
+Test Recall@100 = 0.41004 (0.00082)
+

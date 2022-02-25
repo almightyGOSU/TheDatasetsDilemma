@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  batch_size: 500
+  beta: 0.5
+  chkpt_dir: ./chkpt/Last.fm 360K/vaecf
+  command: MultiVAE_train.py -d Last.fm 360K -n_epochs 200 -early_stop 10 -num_hidden 1 -beta 0.5
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Last.fm 360K
+  dataset: Last.fm 360K
+  early_stop: 10
+  n_epochs: 200
+  num_hidden: 1
+  random_seed: 1337
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+epochs:                        200
+hidden:                        1
+beta:                          0.5
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Training data loaded from './Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Last.fm 360K/train.csv'..
+Number of Training Samples: 16,454,422
+trainData's shape: (358592, 87627)
+
+Start training...
+
+[Epoch 1/200]   Training Step Completed 	Elapsed Time: 158.86s (0:02:38)
+[Epoch 1/200]   Validation nDCG@10: 0.09672	Elapsed Time: 635.17s (0:10:35)
+[Epoch 1]       Validation nDCG@10: 0.09672	<Best> \o/\o/\o/
+
+[Epoch 2/200]   Training Step Completed 	Elapsed Time: 796.21s (0:13:16)
+[Epoch 2/200]   Validation nDCG@10: 0.10676	Elapsed Time: 1,279.60s (0:21:19)
+[Epoch 2]       Validation nDCG@10: 0.10676	<Best> \o/\o/\o/
+
+[Epoch 3/200]   Training Step Completed 	Elapsed Time: 1,440.34s (0:24:00)
+[Epoch 3/200]   Validation nDCG@10: 0.10852	Elapsed Time: 1,920.70s (0:32:00)
+[Epoch 3]       Validation nDCG@10: 0.10852	<Best> \o/\o/\o/
+
+[Epoch 4/200]   Training Step Completed 	Elapsed Time: 2,081.44s (0:34:41)
+[Epoch 4/200]   Validation nDCG@10: 0.10682	Elapsed Time: 2,576.47s (0:42:56)
+
+[Epoch 5/200]   Training Step Completed 	Elapsed Time: 2,732.96s (0:45:32)
+[Epoch 5/200]   Validation nDCG@10: 0.10491	Elapsed Time: 3,228.09s (0:53:48)
+
+[Epoch 6/200]   Training Step Completed 	Elapsed Time: 3,384.50s (0:56:24)
+[Epoch 6/200]   Validation nDCG@10: 0.10443	Elapsed Time: 3,877.77s (1:04:37)
+
+[Epoch 7/200]   Training Step Completed 	Elapsed Time: 4,034.07s (1:07:14)
+[Epoch 7/200]   Validation nDCG@10: 0.10371	Elapsed Time: 4,529.74s (1:15:29)
+
+[Epoch 8/200]   Training Step Completed 	Elapsed Time: 4,685.64s (1:18:05)
+[Epoch 8/200]   Validation nDCG@10: 0.10455	Elapsed Time: 5,184.30s (1:26:24)
+
+[Epoch 9/200]   Training Step Completed 	Elapsed Time: 5,340.53s (1:29:00)
+[Epoch 9/200]   Validation nDCG@10: 0.10479	Elapsed Time: 5,835.28s (1:37:15)
+
+[Epoch 10/200]  Training Step Completed 	Elapsed Time: 5,994.88s (1:39:54)
+[Epoch 10/200]  Validation nDCG@10: 0.10506	Elapsed Time: 6,491.28s (1:48:11)
+
+[Epoch 11/200]  Training Step Completed 	Elapsed Time: 6,649.76s (1:50:49)
+[Epoch 11/200]  Validation nDCG@10: 0.10505	Elapsed Time: 7,147.98s (1:59:07)
+
+[Epoch 12/200]  Training Step Completed 	Elapsed Time: 7,306.38s (2:01:46)
+[Epoch 12/200]  Validation nDCG@10: 0.10584	Elapsed Time: 7,803.13s (2:10:03)
+
+[Epoch 13/200]  Training Step Completed 	Elapsed Time: 7,961.56s (2:12:41)
+[Epoch 13/200]  Validation nDCG@10: 0.10630	Elapsed Time: 8,461.58s (2:21:01)
+
+>>> MODEL performance, in terms of the best validation nDCG@10, has stopped improving!
+>>> Best validation nDCG@10 of 0.10852 was obtained after training for 3 epochs!
+>>> Now, validation nDCG@10 of 0.10630  is obtained after training for 13 epochs!
+>>> Given that there is NO improvement after 10 successive epochs, we are prematurely stopping the model!!!
+
+
+<Best> Validation nDCG@10: 0.10852 (Epoch 3)
+
+
+
+Test nDCG@5     = 0.08759 (0.00041)
+Test nDCG@10    = 0.10841 (0.00041)
+Test nDCG@15    = 0.12057 (0.00042)
+Test nDCG@20    = 0.12925 (0.00042)
+Test nDCG@25    = 0.13594 (0.00041)
+Test nDCG@50    = 0.15646 (0.00041)
+Test nDCG@75    = 0.16782 (0.00040)
+Test nDCG@100   = 0.17554 (0.00040)
+
+Test Recall@5   = 0.13055 (0.00056)
+Test Recall@10  = 0.19521 (0.00066)
+Test Recall@15  = 0.24123 (0.00071)
+Test Recall@20  = 0.27801 (0.00075)
+Test Recall@25  = 0.30862 (0.00077)
+Test Recall@50  = 0.41538 (0.00082)
+Test Recall@75  = 0.48319 (0.00083)
+Test Recall@100 = 0.53303 (0.00083)
+
+
+Model w/ the best validation nDCG@10 of '0.10852' was loaded from './chkpt/Last.fm 360K/vaecf/model'..
+

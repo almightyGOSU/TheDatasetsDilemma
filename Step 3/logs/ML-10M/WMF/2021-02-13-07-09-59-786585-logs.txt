@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    47
+factors:                       200
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (10196, 69878)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 76.30s (0:01:16)
+
+Validation nDCG@10: 0.04233	Elapsed Time: 201.18s (0:03:21)
+
+
+<Best> Validation nDCG@10: 0.04233 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02464 (0.00048)
+Test nDCG@10    = 0.03692 (0.00053)
+Test nDCG@15    = 0.04588 (0.00055)
+Test nDCG@20    = 0.05298 (0.00056)
+Test nDCG@25    = 0.05888 (0.00057)
+Test nDCG@50    = 0.07976 (0.00058)
+Test nDCG@75    = 0.09276 (0.00058)
+Test nDCG@100   = 0.10170 (0.00058)
+
+Test Recall@5   = 0.04143 (0.00075)
+Test Recall@10  = 0.07985 (0.00103)
+Test Recall@15  = 0.11376 (0.00120)
+Test Recall@20  = 0.14385 (0.00133)
+Test Recall@25  = 0.17085 (0.00142)
+Test Recall@50  = 0.27963 (0.00170)
+Test Recall@75  = 0.35724 (0.00181)
+Test Recall@100 = 0.41497 (0.00186)
+

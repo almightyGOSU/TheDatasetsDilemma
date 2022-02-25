@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0
+beta:                          2
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.64s (0:00:06)
+
+Validation nDCG@10: 0.00316	Elapsed Time: 10.62s (0:00:10)
+
+
+<Best> Validation nDCG@10: 0.00316 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00418 (0.00067)
+Test nDCG@10    = 0.00457 (0.00068)
+Test nDCG@15    = 0.00462 (0.00068)
+Test nDCG@20    = 0.00481 (0.00069)
+Test nDCG@25    = 0.00482 (0.00068)
+Test nDCG@50    = 0.00532 (0.00070)
+Test nDCG@75    = 0.00562 (0.00070)
+Test nDCG@100   = 0.00593 (0.00071)
+
+Test Recall@5   = 0.00564 (0.00086)
+Test Recall@10  = 0.00682 (0.00094)
+Test Recall@15  = 0.00735 (0.00098)
+Test Recall@20  = 0.00774 (0.00100)
+Test Recall@25  = 0.00814 (0.00103)
+Test Recall@50  = 0.01050 (0.00117)
+Test Recall@75  = 0.01220 (0.00126)
+Test Recall@100 = 0.01430 (0.00136)
+

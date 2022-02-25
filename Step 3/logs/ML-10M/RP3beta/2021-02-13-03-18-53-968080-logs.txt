@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          239
+alpha:                         1.18423
+beta:                          0.67005
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.29s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 33.53s (0:00:33)
+
+Validation nDCG@10: 0.02872	Elapsed Time: 62.45s (0:01:02)
+
+
+<Best> Validation nDCG@10: 0.02872 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01607 (0.00039)
+Test nDCG@10    = 0.02390 (0.00043)
+Test nDCG@15    = 0.03013 (0.00045)
+Test nDCG@20    = 0.03533 (0.00047)
+Test nDCG@25    = 0.03955 (0.00048)
+Test nDCG@50    = 0.05484 (0.00050)
+Test nDCG@75    = 0.06553 (0.00050)
+Test nDCG@100   = 0.07339 (0.00051)
+
+Test Recall@5   = 0.02665 (0.00061)
+Test Recall@10  = 0.05113 (0.00083)
+Test Recall@15  = 0.07473 (0.00099)
+Test Recall@20  = 0.09681 (0.00112)
+Test Recall@25  = 0.11612 (0.00121)
+Test Recall@50  = 0.19604 (0.00150)
+Test Recall@75  = 0.25990 (0.00166)
+Test Recall@100 = 0.31073 (0.00175)
+

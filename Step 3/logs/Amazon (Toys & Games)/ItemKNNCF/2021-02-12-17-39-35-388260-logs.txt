@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Toys & Games) -m ItemKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Toys & Games)
+  dataset: Amazon (Toys & Games)
+  model: ItemKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          963
+shrink:                        52
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 19,412
+Number of Items: 11,924
+
+Number of Training Samples: 128,773
+trainData's shape: (19412, 11924)
+
+Number of Validation Samples: 19,412
+validationData's shape: (19412, 11924)
+
+Number of Testing Samples: 19,412
+testData's shape: (19412, 11924)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'ItemKNNCF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'ItemKNNCF'..
+'ItemKNNCF' fitted! Elapsed Time: 4.04s (0:00:04)
+
+Validation nDCG@10: 0.05448	Elapsed Time: 10.92s (0:00:10)
+
+
+<Best> Validation nDCG@10: 0.05448 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02108 (0.00088)
+Test nDCG@10    = 0.02692 (0.00092)
+Test nDCG@15    = 0.02994 (0.00094)
+Test nDCG@20    = 0.03212 (0.00095)
+Test nDCG@25    = 0.03364 (0.00096)
+Test nDCG@50    = 0.03870 (0.00097)
+Test nDCG@75    = 0.04179 (0.00098)
+Test nDCG@100   = 0.04402 (0.00098)
+
+Test Recall@5   = 0.03235 (0.00127)
+Test Recall@10  = 0.05054 (0.00157)
+Test Recall@15  = 0.06192 (0.00173)
+Test Recall@20  = 0.07119 (0.00185)
+Test Recall@25  = 0.07799 (0.00192)
+Test Recall@50  = 0.10468 (0.00220)
+Test Recall@75  = 0.12291 (0.00236)
+Test Recall@100 = 0.13760 (0.00247)
+

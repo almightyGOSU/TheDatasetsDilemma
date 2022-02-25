@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         0.44721
+beta:                          0.45636
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.22s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 29.53s (0:00:29)
+
+Validation nDCG@10: 0.04121	Elapsed Time: 46.03s (0:00:46)
+
+
+<Best> Validation nDCG@10: 0.04121 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02621 (0.00050)
+Test nDCG@10    = 0.03676 (0.00054)
+Test nDCG@15    = 0.04345 (0.00055)
+Test nDCG@20    = 0.04879 (0.00056)
+Test nDCG@25    = 0.05272 (0.00057)
+Test nDCG@50    = 0.06498 (0.00058)
+Test nDCG@75    = 0.07243 (0.00058)
+Test nDCG@100   = 0.07766 (0.00058)
+
+Test Recall@5   = 0.04312 (0.00077)
+Test Recall@10  = 0.07605 (0.00100)
+Test Recall@15  = 0.10139 (0.00114)
+Test Recall@20  = 0.12377 (0.00125)
+Test Recall@25  = 0.14188 (0.00132)
+Test Recall@50  = 0.20547 (0.00153)
+Test Recall@75  = 0.25008 (0.00164)
+Test Recall@100 = 0.28364 (0.00171)
+

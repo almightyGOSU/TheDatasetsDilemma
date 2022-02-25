@@ -1,0 +1,92 @@
+
+||-----------------||--------------------------------------------------------------------------||
+||                 || spaceSizeLog |   shapeLog   |  densityLog  |   userGini   |   itemGini   ||
+|| Cluster 1       ||        7.274 |        0.497 |       -3.412 |        0.477 |        0.657 ||
+||-----------------||--------------------------------------------------------------------------||
+
+Cluster 1 [11 datasets]:
+(1)  Amazon (Books)
+(2)  Amazon (CDs & Vinyl)
+(3)  Amazon (Electronics)
+(4)  Amazon (Kindle Store)
+(5)  Amazon (Movies & TV)
+(6)  GoodReads (Comics)
+(7)  Last.fm 360K
+(8)  Million Song Dataset
+(9)  Yahoo! R1
+(10) Yahoo! R2
+(11) Yelp
+
+
+||-----------------||--------------------------------------------------------------------------||
+||                 || spaceSizeLog |   shapeLog   |  densityLog  |   userGini   |   itemGini   ||
+|| Cluster 2       ||        4.289 |       -0.138 |       -2.137 |        0.415 |        0.524 ||
+||-----------------||--------------------------------------------------------------------------||
+
+Cluster 2 [12 datasets]:
+(1)  Amazon (Amazon Instant Video)
+(2)  Amazon (Automotive)
+(3)  Amazon (Digital Music)
+(4)  Amazon (Office Products)
+(5)  Amazon Fine Food
+(6)  CiteULike-a
+(7)  CiteULike-t
+(8)  HetRec2011-LastFM-2K
+(9)  HetRec2011-ML-2K
+(10) Last.fm 1K
+(11) ML-1M
+(12) Yahoo! R4
+
+
+||-----------------||--------------------------------------------------------------------------||
+||                 || spaceSizeLog |   shapeLog   |  densityLog  |   userGini   |   itemGini   ||
+|| Cluster 3       ||        5.613 |        0.244 |       -3.139 |        0.348 |        0.508 ||
+||-----------------||--------------------------------------------------------------------------||
+
+Cluster 3 [17 datasets]:
+(1)  Amazon (Apps for Android)
+(2)  Amazon (Baby)
+(3)  Amazon (Beauty)
+(4)  Amazon (Cell Phones & Accessories)
+(5)  Amazon (Clothing Shoes & Jewelry)
+(6)  Amazon (Grocery & Gourmet Food)
+(7)  Amazon (Health & Personal Care)
+(8)  Amazon (Home & Kitchen)
+(9)  Amazon (Pet Supplies)
+(10) Amazon (Sports & Outdoors)
+(11) Amazon (Tools & Home Improvement)
+(12) Amazon (Toys & Games)
+(13) Amazon (Video Games)
+(14) BookCrossing
+(15) Epinions
+(16) Gowalla
+(17) Meetup (NYC)
+
+
+||-----------------||--------------------------------------------------------------------------||
+||                 || spaceSizeLog |   shapeLog   |  densityLog  |   userGini   |   itemGini   ||
+|| Cluster 4       ||        3.029 |        0.191 |       -1.621 |        0.327 |        0.546 ||
+||-----------------||--------------------------------------------------------------------------||
+
+Cluster 4 [4 datasets]:
+(1)  Amazon (Musical Instruments)
+(2)  Amazon (Patio Lawn & Garden)
+(3)  FilmTrust
+(4)  ML-100K
+
+
+||-----------------||--------------------------------------------------------------------------||
+||                 || spaceSizeLog |   shapeLog   |  densityLog  |   userGini   |   itemGini   ||
+|| Cluster 5       ||        6.224 |        0.861 |       -2.181 |        0.450 |        0.720 ||
+||-----------------||--------------------------------------------------------------------------||
+
+Cluster 5 [7 datasets]:
+(1)  Flixster
+(2)  Goodbooks
+(3)  ML-10M
+(4)  ML-20M
+(5)  Million Song Dataset (Taste Profile Subset)
+(6)  Netflix
+(7)  Pinterest
+
+

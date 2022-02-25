@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         1.08773
+beta:                          0.3496
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.28s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 126.58s (0:02:06)
+
+Validation nDCG@10: 0.12926	Elapsed Time: 192.94s (0:03:12)
+
+
+<Best> Validation nDCG@10: 0.12926 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04260 (0.00061)
+Test nDCG@10    = 0.06307 (0.00066)
+Test nDCG@15    = 0.07637 (0.00067)
+Test nDCG@20    = 0.08379 (0.00068)
+Test nDCG@25    = 0.08920 (0.00068)
+Test nDCG@50    = 0.10548 (0.00068)
+Test nDCG@75    = 0.11476 (0.00068)
+Test nDCG@100   = 0.12101 (0.00067)
+
+Test Recall@5   = 0.07522 (0.00100)
+Test Recall@10  = 0.13896 (0.00131)
+Test Recall@15  = 0.18925 (0.00149)
+Test Recall@20  = 0.22071 (0.00157)
+Test Recall@25  = 0.24548 (0.00163)
+Test Recall@50  = 0.33027 (0.00179)
+Test Recall@75  = 0.38563 (0.00185)
+Test Recall@100 = 0.42610 (0.00188)
+

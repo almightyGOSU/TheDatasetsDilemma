@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Patio Lawn & Garden) -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Patio Lawn & Garden)
+  dataset: Amazon (Patio Lawn & Garden)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    2
+factors:                       200
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 1,686
+Number of Items: 962
+
+Number of Training Samples: 9,900
+trainData's shape: (962, 1686)
+
+Number of Validation Samples: 1,686
+validationData's shape: (1686, 962)
+
+Number of Testing Samples: 1,686
+testData's shape: (1686, 962)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 0.16s (0:00:00)
+
+Validation nDCG@10: 0.04979	Elapsed Time: 0.64s (0:00:00)
+
+
+<Best> Validation nDCG@10: 0.04979 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02832 (0.00352)
+Test nDCG@10    = 0.03472 (0.00366)
+Test nDCG@15    = 0.03882 (0.00372)
+Test nDCG@20    = 0.04176 (0.00376)
+Test nDCG@25    = 0.04383 (0.00378)
+Test nDCG@50    = 0.05199 (0.00384)
+Test nDCG@75    = 0.05864 (0.00387)
+Test nDCG@100   = 0.06342 (0.00389)
+
+Test Recall@5   = 0.04211 (0.00489)
+Test Recall@10  = 0.06168 (0.00586)
+Test Recall@15  = 0.07711 (0.00650)
+Test Recall@20  = 0.08956 (0.00695)
+Test Recall@25  = 0.09905 (0.00728)
+Test Recall@50  = 0.14116 (0.00848)
+Test Recall@75  = 0.18090 (0.00937)
+Test Recall@100 = 0.21174 (0.00995)
+

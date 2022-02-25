@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          563
+alpha:                         0.42518
+beta:                          1.08616
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 9.61s (0:00:09)
+
+Validation nDCG@10: 0.05365	Elapsed Time: 12.98s (0:00:12)
+
+
+<Best> Validation nDCG@10: 0.05365 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04596 (0.00287)
+Test nDCG@10    = 0.05511 (0.00295)
+Test nDCG@15    = 0.06150 (0.00299)
+Test nDCG@20    = 0.06558 (0.00301)
+Test nDCG@25    = 0.06898 (0.00303)
+Test nDCG@50    = 0.08006 (0.00304)
+Test nDCG@75    = 0.08614 (0.00304)
+Test nDCG@100   = 0.09164 (0.00304)
+
+Test Recall@5   = 0.06831 (0.00400)
+Test Recall@10  = 0.09744 (0.00470)
+Test Recall@15  = 0.12104 (0.00517)
+Test Recall@20  = 0.13837 (0.00547)
+Test Recall@25  = 0.15344 (0.00571)
+Test Recall@50  = 0.21220 (0.00648)
+Test Recall@75  = 0.24887 (0.00685)
+Test Recall@100 = 0.28403 (0.00715)
+

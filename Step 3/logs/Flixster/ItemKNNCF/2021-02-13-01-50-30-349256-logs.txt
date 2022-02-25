@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m ItemKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: ItemKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          333
+shrink:                        691
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'ItemKNNCF' created! Elapsed Time: 0.16s (0:00:00)
+
+Fitting 'ItemKNNCF'..
+'ItemKNNCF' fitted! Elapsed Time: 178.89s (0:02:58)
+
+Validation nDCG@10: 0.12079	Elapsed Time: 342.50s (0:05:42)
+
+
+<Best> Validation nDCG@10: 0.12079 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.05973 (0.00074)
+Test nDCG@10    = 0.07663 (0.00077)
+Test nDCG@15    = 0.08538 (0.00078)
+Test nDCG@20    = 0.09039 (0.00078)
+Test nDCG@25    = 0.09403 (0.00078)
+Test nDCG@50    = 0.10558 (0.00078)
+Test nDCG@75    = 0.11246 (0.00078)
+Test nDCG@100   = 0.11782 (0.00078)
+
+Test Recall@5   = 0.09641 (0.00112)
+Test Recall@10  = 0.14837 (0.00135)
+Test Recall@15  = 0.18144 (0.00146)
+Test Recall@20  = 0.20266 (0.00153)
+Test Recall@25  = 0.21933 (0.00157)
+Test Recall@50  = 0.27950 (0.00170)
+Test Recall@75  = 0.32060 (0.00177)
+Test Recall@100 = 0.35520 (0.00182)
+

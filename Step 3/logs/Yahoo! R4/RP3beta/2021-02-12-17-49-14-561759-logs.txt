@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         2
+beta:                          0.53206
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.01s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 0.90s (0:00:00)
+
+Validation nDCG@10: 0.17466	Elapsed Time: 2.90s (0:00:02)
+
+
+<Best> Validation nDCG@10: 0.17466 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.15057 (0.00358)
+Test nDCG@10    = 0.17407 (0.00358)
+Test nDCG@15    = 0.18563 (0.00356)
+Test nDCG@20    = 0.19247 (0.00354)
+Test nDCG@25    = 0.19660 (0.00353)
+Test nDCG@50    = 0.20519 (0.00349)
+Test nDCG@75    = 0.19829 (0.00352)
+Test nDCG@100   = 0.19910 (0.00351)
+
+Test Recall@5   = 0.21168 (0.00468)
+Test Recall@10  = 0.28438 (0.00517)
+Test Recall@15  = 0.32808 (0.00538)
+Test Recall@20  = 0.35696 (0.00549)
+Test Recall@25  = 0.37598 (0.00555)
+Test Recall@50  = 0.42270 (0.00566)
+Test Recall@75  = 0.38871 (0.00558)
+Test Recall@100 = 0.39383 (0.00560)
+

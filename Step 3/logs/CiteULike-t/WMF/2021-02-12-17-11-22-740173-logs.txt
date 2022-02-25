@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    19
+factors:                       200
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (6590, 3982)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 3.12s (0:00:03)
+
+Validation nDCG@10: 0.10023	Elapsed Time: 9.51s (0:00:09)
+
+
+<Best> Validation nDCG@10: 0.10023 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.08499 (0.00379)
+Test nDCG@10    = 0.10230 (0.00386)
+Test nDCG@15    = 0.11307 (0.00388)
+Test nDCG@20    = 0.12020 (0.00388)
+Test nDCG@25    = 0.12496 (0.00388)
+Test nDCG@50    = 0.14133 (0.00384)
+Test nDCG@75    = 0.14804 (0.00381)
+Test nDCG@100   = 0.15435 (0.00378)
+
+Test Recall@5   = 0.12732 (0.00528)
+Test Recall@10  = 0.18132 (0.00611)
+Test Recall@15  = 0.22225 (0.00659)
+Test Recall@20  = 0.25239 (0.00688)
+Test Recall@25  = 0.27423 (0.00707)
+Test Recall@50  = 0.35912 (0.00760)
+Test Recall@75  = 0.39930 (0.00776)
+Test Recall@100 = 0.43998 (0.00787)
+

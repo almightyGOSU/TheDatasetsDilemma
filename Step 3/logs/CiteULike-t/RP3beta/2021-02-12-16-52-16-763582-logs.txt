@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          734
+alpha:                         0.7525
+beta:                          0.00682
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 8.39s (0:00:08)
+
+Validation nDCG@10: 0.09485	Elapsed Time: 10.14s (0:00:10)
+
+
+<Best> Validation nDCG@10: 0.09485 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.07888 (0.00369)
+Test nDCG@10    = 0.09600 (0.00377)
+Test nDCG@15    = 0.10851 (0.00380)
+Test nDCG@20    = 0.11652 (0.00381)
+Test nDCG@25    = 0.12162 (0.00380)
+Test nDCG@50    = 0.13932 (0.00376)
+Test nDCG@75    = 0.14835 (0.00372)
+Test nDCG@100   = 0.15574 (0.00369)
+
+Test Recall@5   = 0.11627 (0.00508)
+Test Recall@10  = 0.16926 (0.00594)
+Test Recall@15  = 0.21622 (0.00652)
+Test Recall@20  = 0.25013 (0.00686)
+Test Recall@25  = 0.27373 (0.00707)
+Test Recall@50  = 0.36539 (0.00763)
+Test Recall@75  = 0.41964 (0.00782)
+Test Recall@100 = 0.46660 (0.00791)
+

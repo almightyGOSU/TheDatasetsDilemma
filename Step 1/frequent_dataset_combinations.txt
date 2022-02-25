@@ -1,0 +1,71 @@
+||                           Datasets                           |  Number of Datasets  |                  Papers                  |   Number of Papers   ||
+||--------------------------------------------------------------|----------------------|------------------------------------------|----------------------||
+|| Epinions, ML-20M, Netflix, Yelp                              |                    4 | 32, 33                                   |                    2 ||
+||--------------------------------------------------------------|----------------------|------------------------------------------|----------------------||
+|| ML-20M, Million Song Dataset, Netflix                        |                    3 | 12, 24, 29, 43, 45                       |                    5 ||
+|| Amazon (Books), Gowalla, Yelp                                |                    3 | 15, 52, 53                               |                    3 ||
+|| Amazon (CDs & Vinyl), Amazon (Electronics), Gowalla          |                    3 | 35, 47                                   |                    2 ||
+|| Flixster, ML-10M, Netflix                                    |                    3 | 7, 8                                     |                    2 ||
+|| ML-100K, ML-1M, Netflix                                      |                    3 | 26, 50                                   |                    2 ||
+|| ML-10M, Netflix, Yelp                                        |                    3 | 55, 56                                   |                    2 ||
+|| ML-1M, ML-20M, Meetup (NYC)                                  |                    3 | 49, 51                                   |                    2 ||
+||--------------------------------------------------------------|----------------------|------------------------------------------|----------------------||
+|| ML-20M, Netflix                                              |                    2 | 12, 24, 29, 32, 33, 43, 45, 49, 54       |                    9 ||
+|| Amazon (Books), Yelp                                         |                    2 | 15, 18, 30, 52, 53, 57                   |                    6 ||
+|| ML-100K, ML-1M                                               |                    2 | 4, 26, 31, 36, 50                        |                    5 ||
+|| ML-10M, Netflix                                              |                    2 | 7, 8, 26, 55, 56                         |                    5 ||
+|| ML-1M, Netflix                                               |                    2 | 3, 26, 37, 49, 50                        |                    5 ||
+|| Netflix, Yelp                                                |                    2 | 32, 33, 55, 56, 57                       |                    5 ||
+|| Amazon (Books), Gowalla                                      |                    2 | 15, 35, 52, 53                           |                    4 ||
+|| Gowalla, Yelp                                                |                    2 | 15, 16, 52, 53                           |                    4 ||
+|| Amazon (CDs & Vinyl), Amazon (Electronics)                   |                    2 | 34, 35, 47                               |                    3 ||
+|| Epinions, Netflix                                            |                    2 | 32, 33, 50                               |                    3 ||
+|| ML-1M, Pinterest                                             |                    2 | 17, 38, 58                               |                    3 ||
+|| ML-1M, Yelp                                                  |                    2 | 30, 36, 51                               |                    3 ||
+|| ML-20M, Yelp                                                 |                    2 | 32, 33, 51                               |                    3 ||
+|| Amazon (Books), ML-1M                                        |                    2 | 30, 37                                   |                    2 ||
+|| Amazon (Books), Netflix                                      |                    2 | 37, 57                                   |                    2 ||
+|| Amazon (CDs & Vinyl), Amazon (Movies & TV)                   |                    2 | 46, 47                                   |                    2 ||
+|| BookCrossing, ML-1M                                          |                    2 | 34, 49                                   |                    2 ||
+|| Epinions, ML-1M                                              |                    2 | 34, 50                                   |                    2 ||
+|| HetRec2011-LastFM-2K, Netflix                                |                    2 | 49, 56                                   |                    2 ||
+|| ML-1M, Yahoo! R2                                             |                    2 | 37, 38                                   |                    2 ||
+|| ML-1M, Yahoo! R4                                             |                    2 | 39, 41                                   |                    2 ||
+||--------------------------------------------------------------|----------------------|------------------------------------------|----------------------||
+
+
+
+Datasets & Papers\\
+\midrule
+Epinions, ML-20M, Netflix, Yelp & \cite{RecSys2019_6,WWW2020_8}\\
+\midrule
+ML-20M, Million Song Dataset, Netflix & \cite{RecSys2019_8,WSDM2020_4,WSDM2020_8,WWW2018_5_MultVAE,WWW2020_9}\\
+Amazon (Books), Gowalla, Yelp & \cite{SIGIR2019_7,SIGIR2020_12,SIGIR2020_13_LightGCN}\\
+Amazon (CDs & Vinyl), Amazon (Electronics), Gowalla & \cite{KDD2020_8,SIGIR2020_14}\\
+Flixster, ML-10M, Netflix & \cite{KDD2018_2,RecSys2016_3}\\
+ML-100K, ML-1M, Netflix & \cite{WWW2018_3,WWW2019_6}\\
+ML-10M, Netflix, Yelp & \cite{WSDM2016_1,WSDM2016_2}\\
+ML-1M, ML-20M, Meetup (NYC) & \cite{WSDM2020_7,WWW2018_4}\\
+\midrule
+ML-20M, Netflix & \cite{RecSys2019_6,RecSys2019_8,SIGIR2019_8,WSDM2020_4,WSDM2020_8,WWW2018_4,WWW2018_5_MultVAE,WWW2020_8,WWW2020_9}\\
+Amazon (Books), Yelp & \cite{SIGIR2016_1,SIGIR2016_2,SIGIR2019_6,SIGIR2019_7,SIGIR2020_12,SIGIR2020_13_LightGCN}\\
+ML-100K, ML-1M & \cite{KDD2020_6,SIGIR2020_9,WSDM2020_6,WWW2018_3,WWW2019_6}\\
+ML-10M, Netflix & \cite{KDD2018_2,RecSys2016_3,WSDM2016_1,WSDM2016_2,WWW2018_3}\\
+ML-1M, Netflix & \cite{RecSys2019_7,SIGIR2017_3,WWW2018_3,WWW2018_4,WWW2019_6}\\
+Netflix, Yelp & \cite{RecSys2019_6,SIGIR2016_1,WSDM2016_1,WSDM2016_2,WWW2020_8}\\
+Amazon (Books), Gowalla & \cite{KDD2020_8,SIGIR2019_7,SIGIR2020_12,SIGIR2020_13_LightGCN}\\
+Gowalla, Yelp & \cite{SIGIR2018_4,SIGIR2019_7,SIGIR2020_12,SIGIR2020_13_LightGCN}\\
+Amazon (CDs & Vinyl), Amazon (Electronics) & \cite{KDD2020_8,RecSys2016_2,SIGIR2020_14}\\
+Epinions, Netflix & \cite{RecSys2019_6,WWW2019_6,WWW2020_8}\\
+ML-1M, Pinterest & \cite{WSDM2019_3,WSDM2020_5,WWW2017_2}\\
+ML-1M, Yelp & \cite{KDD2020_6,SIGIR2019_6,WSDM2020_7}\\
+ML-20M, Yelp & \cite{RecSys2019_6,WSDM2020_7,WWW2020_8}\\
+Amazon (Books), ML-1M & \cite{RecSys2019_7,SIGIR2019_6}\\
+Amazon (Books), Netflix & \cite{RecSys2019_7,SIGIR2016_1}\\
+Amazon (CDs & Vinyl), Amazon (Movies & TV) & \cite{KDD2020_4,SIGIR2020_14}\\
+BookCrossing, ML-1M & \cite{RecSys2016_2,WWW2018_4}\\
+Epinions, ML-1M & \cite{RecSys2016_2,WWW2019_6}\\
+HetRec2011-LastFM-2K, Netflix & \cite{WSDM2016_1,WWW2018_4}\\
+ML-1M, Yahoo! R2 & \cite{RecSys2019_7,WSDM2019_3}\\
+ML-1M, Yahoo! R4 & \cite{RecSys2016_1,RecSys2017_4}\\
+\midrule

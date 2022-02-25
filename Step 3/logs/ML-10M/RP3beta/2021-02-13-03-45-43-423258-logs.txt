@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0.21602
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.30s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 41.26s (0:00:41)
+
+Validation nDCG@10: 0.03369	Elapsed Time: 91.75s (0:01:31)
+
+
+<Best> Validation nDCG@10: 0.03369 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02319 (0.00048)
+Test nDCG@10    = 0.03151 (0.00051)
+Test nDCG@15    = 0.03751 (0.00053)
+Test nDCG@20    = 0.04206 (0.00054)
+Test nDCG@25    = 0.04586 (0.00055)
+Test nDCG@50    = 0.05916 (0.00056)
+Test nDCG@75    = 0.06689 (0.00056)
+Test nDCG@100   = 0.07250 (0.00057)
+
+Test Recall@5   = 0.03668 (0.00071)
+Test Recall@10  = 0.06267 (0.00092)
+Test Recall@15  = 0.08536 (0.00106)
+Test Recall@20  = 0.10464 (0.00116)
+Test Recall@25  = 0.12201 (0.00124)
+Test Recall@50  = 0.19141 (0.00149)
+Test Recall@75  = 0.23756 (0.00161)
+Test Recall@100 = 0.27385 (0.00169)
+

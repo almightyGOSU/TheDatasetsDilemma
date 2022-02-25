@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Patio Lawn & Garden) -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Patio Lawn & Garden)
+  dataset: Amazon (Patio Lawn & Garden)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          996
+alpha:                         0.55961
+beta:                          0.63605
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 1,686
+Number of Items: 962
+
+Number of Training Samples: 9,900
+trainData's shape: (1686, 962)
+
+Number of Validation Samples: 1,686
+validationData's shape: (1686, 962)
+
+Number of Testing Samples: 1,686
+testData's shape: (1686, 962)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 0.14s (0:00:00)
+
+Validation nDCG@10: 0.06196	Elapsed Time: 0.25s (0:00:00)
+
+
+<Best> Validation nDCG@10: 0.06196 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02845 (0.00354)
+Test nDCG@10    = 0.03613 (0.00369)
+Test nDCG@15    = 0.04263 (0.00379)
+Test nDCG@20    = 0.04654 (0.00384)
+Test nDCG@25    = 0.04941 (0.00386)
+Test nDCG@50    = 0.06249 (0.00395)
+Test nDCG@75    = 0.07333 (0.00397)
+Test nDCG@100   = 0.08030 (0.00397)
+
+Test Recall@5   = 0.04152 (0.00486)
+Test Recall@10  = 0.06584 (0.00604)
+Test Recall@15  = 0.09015 (0.00698)
+Test Recall@20  = 0.10617 (0.00750)
+Test Recall@25  = 0.11981 (0.00791)
+Test Recall@50  = 0.18743 (0.00950)
+Test Recall@75  = 0.25267 (0.01058)
+Test Recall@100 = 0.29775 (0.01114)
+

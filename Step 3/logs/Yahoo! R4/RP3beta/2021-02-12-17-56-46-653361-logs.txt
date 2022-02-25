@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         2
+beta:                          0.43252
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 8.54s (0:00:08)
+
+Validation nDCG@10: 0.05731	Elapsed Time: 15.32s (0:00:15)
+
+
+<Best> Validation nDCG@10: 0.05731 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04399 (0.00202)
+Test nDCG@10    = 0.05656 (0.00211)
+Test nDCG@15    = 0.06357 (0.00214)
+Test nDCG@20    = 0.06969 (0.00216)
+Test nDCG@25    = 0.07495 (0.00217)
+Test nDCG@50    = 0.09086 (0.00218)
+Test nDCG@75    = 0.10087 (0.00218)
+Test nDCG@100   = 0.10805 (0.00217)
+
+Test Recall@5   = 0.06640 (0.00285)
+Test Recall@10  = 0.10577 (0.00352)
+Test Recall@15  = 0.13241 (0.00388)
+Test Recall@20  = 0.15801 (0.00418)
+Test Recall@25  = 0.18228 (0.00442)
+Test Recall@50  = 0.26509 (0.00506)
+Test Recall@75  = 0.32454 (0.00536)
+Test Recall@100 = 0.37126 (0.00553)
+

@@ -1,0 +1,30 @@
+Cluster 1 [3 (out of 11) 'representative' datasets]:
+(1)  Amazon (Electronics)
+(2)  Amazon (Movies & TV)
+(3)  Last.fm 360K
+
+
+Cluster 2 [3 (out of 12) 'representative' datasets]:
+(1)  Amazon (Digital Music)
+(2)  CiteULike-t
+(3)  Yahoo! R4
+
+
+Cluster 3 [3 (out of 17) 'representative' datasets]:
+(1)  Amazon (Beauty)
+(2)  Amazon (Toys & Games)
+(3)  Amazon (Video Games)
+
+
+Cluster 4 [3 (out of 4) 'representative' datasets]:
+(1)  Amazon (Musical Instruments)
+(2)  Amazon (Patio Lawn & Garden)
+(3)  ML-100K
+
+
+Cluster 5 [3 (out of 7) 'representative' datasets]:
+(1)  Flixster
+(2)  ML-10M
+(3)  ML-20M
+
+

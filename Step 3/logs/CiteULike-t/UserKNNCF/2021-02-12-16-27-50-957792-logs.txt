@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m UserKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: UserKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          109
+shrink:                        5
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'UserKNNCF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'UserKNNCF'..
+'UserKNNCF' fitted! Elapsed Time: 2.93s (0:00:02)
+
+Validation nDCG@10: 0.09188	Elapsed Time: 7.87s (0:00:07)
+
+
+<Best> Validation nDCG@10: 0.09188 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.07692 (0.00369)
+Test nDCG@10    = 0.09371 (0.00377)
+Test nDCG@15    = 0.10408 (0.00379)
+Test nDCG@20    = 0.11009 (0.00380)
+Test nDCG@25    = 0.11411 (0.00380)
+Test nDCG@50    = 0.12901 (0.00377)
+Test nDCG@75    = 0.13778 (0.00374)
+Test nDCG@100   = 0.14363 (0.00372)
+
+Test Recall@5   = 0.11125 (0.00498)
+Test Recall@10  = 0.16374 (0.00586)
+Test Recall@15  = 0.20342 (0.00638)
+Test Recall@20  = 0.22828 (0.00665)
+Test Recall@25  = 0.24636 (0.00683)
+Test Recall@50  = 0.32421 (0.00742)
+Test Recall@75  = 0.37695 (0.00768)
+Test Recall@100 = 0.41487 (0.00781)
+

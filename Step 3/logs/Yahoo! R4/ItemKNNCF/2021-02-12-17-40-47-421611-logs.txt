@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m ItemKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: ItemKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          688
+shrink:                        373
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'ItemKNNCF' created! Elapsed Time: 0.01s (0:00:00)
+
+Fitting 'ItemKNNCF'..
+'ItemKNNCF' fitted! Elapsed Time: 5.09s (0:00:05)
+
+Validation nDCG@10: 0.19531	Elapsed Time: 11.65s (0:00:11)
+
+
+<Best> Validation nDCG@10: 0.19531 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.16287 (0.00360)
+Test nDCG@10    = 0.19296 (0.00358)
+Test nDCG@15    = 0.20990 (0.00354)
+Test nDCG@20    = 0.22070 (0.00350)
+Test nDCG@25    = 0.22834 (0.00347)
+Test nDCG@50    = 0.24692 (0.00337)
+Test nDCG@75    = 0.25429 (0.00332)
+Test nDCG@100   = 0.25900 (0.00329)
+
+Test Recall@5   = 0.23793 (0.00488)
+Test Recall@10  = 0.33136 (0.00539)
+Test Recall@15  = 0.39514 (0.00560)
+Test Recall@20  = 0.44081 (0.00569)
+Test Recall@25  = 0.47598 (0.00572)
+Test Recall@50  = 0.57205 (0.00567)
+Test Recall@75  = 0.61575 (0.00557)
+Test Recall@100 = 0.64619 (0.00548)
+

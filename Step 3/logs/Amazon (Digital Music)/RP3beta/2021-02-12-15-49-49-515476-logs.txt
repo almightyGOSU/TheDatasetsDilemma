@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Digital Music) -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Digital Music)
+  dataset: Amazon (Digital Music)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          509
+alpha:                         0.34768
+beta:                          0.35795
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 5,541
+Number of Items: 3,568
+
+Number of Training Samples: 53,624
+trainData's shape: (5541, 3568)
+
+Number of Validation Samples: 5,541
+validationData's shape: (5541, 3568)
+
+Number of Testing Samples: 5,541
+testData's shape: (5541, 3568)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 2.96s (0:00:02)
+
+Validation nDCG@10: 0.11281	Elapsed Time: 4.10s (0:00:04)
+
+
+<Best> Validation nDCG@10: 0.11281 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.06057 (0.00269)
+Test nDCG@10    = 0.07652 (0.00279)
+Test nDCG@15    = 0.08570 (0.00282)
+Test nDCG@20    = 0.09267 (0.00283)
+Test nDCG@25    = 0.09829 (0.00284)
+Test nDCG@50    = 0.11431 (0.00283)
+Test nDCG@75    = 0.12449 (0.00280)
+Test nDCG@100   = 0.13129 (0.00278)
+
+Test Recall@5   = 0.09511 (0.00394)
+Test Recall@10  = 0.14474 (0.00473)
+Test Recall@15  = 0.17957 (0.00516)
+Test Recall@20  = 0.20899 (0.00546)
+Test Recall@25  = 0.23480 (0.00569)
+Test Recall@50  = 0.31799 (0.00626)
+Test Recall@75  = 0.37863 (0.00652)
+Test Recall@100 = 0.42249 (0.00664)
+

@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Beauty) -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Beauty)
+  dataset: Amazon (Beauty)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    35
+factors:                       161
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 22,363
+Number of Items: 12,102
+
+Number of Training Samples: 153,776
+trainData's shape: (12102, 22363)
+
+Number of Validation Samples: 22,363
+validationData's shape: (22363, 12102)
+
+Number of Testing Samples: 22,363
+testData's shape: (22363, 12102)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 2.12s (0:00:02)
+
+Validation nDCG@10: 0.04445	Elapsed Time: 17.79s (0:00:17)
+
+
+<Best> Validation nDCG@10: 0.04445 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01865 (0.00076)
+Test nDCG@10    = 0.02504 (0.00081)
+Test nDCG@15    = 0.02868 (0.00083)
+Test nDCG@20    = 0.03144 (0.00084)
+Test nDCG@25    = 0.03386 (0.00085)
+Test nDCG@50    = 0.04128 (0.00088)
+Test nDCG@75    = 0.04553 (0.00088)
+Test nDCG@100   = 0.04854 (0.00089)
+
+Test Recall@5   = 0.02992 (0.00114)
+Test Recall@10  = 0.04977 (0.00145)
+Test Recall@15  = 0.06359 (0.00163)
+Test Recall@20  = 0.07526 (0.00176)
+Test Recall@25  = 0.08635 (0.00188)
+Test Recall@50  = 0.12494 (0.00221)
+Test Recall@75  = 0.15034 (0.00239)
+Test Recall@100 = 0.16979 (0.00251)
+

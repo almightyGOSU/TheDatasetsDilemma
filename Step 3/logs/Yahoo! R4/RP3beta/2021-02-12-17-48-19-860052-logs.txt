@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          893
+alpha:                         2
+beta:                          1.85759
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.69s (0:00:06)
+
+Validation nDCG@10: 0.00718	Elapsed Time: 10.72s (0:00:10)
+
+
+<Best> Validation nDCG@10: 0.00718 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00720 (0.00087)
+Test nDCG@10    = 0.00832 (0.00090)
+Test nDCG@15    = 0.00929 (0.00091)
+Test nDCG@20    = 0.00981 (0.00091)
+Test nDCG@25    = 0.01056 (0.00093)
+Test nDCG@50    = 0.01196 (0.00095)
+Test nDCG@75    = 0.01307 (0.00096)
+Test nDCG@100   = 0.01422 (0.00097)
+
+Test Recall@5   = 0.01010 (0.00115)
+Test Recall@10  = 0.01352 (0.00132)
+Test Recall@15  = 0.01732 (0.00149)
+Test Recall@20  = 0.01969 (0.00159)
+Test Recall@25  = 0.02270 (0.00171)
+Test Recall@50  = 0.03018 (0.00196)
+Test Recall@75  = 0.03688 (0.00216)
+Test Recall@100 = 0.04436 (0.00236)
+

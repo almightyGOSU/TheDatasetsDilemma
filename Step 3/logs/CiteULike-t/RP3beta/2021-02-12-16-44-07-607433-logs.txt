@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          1000
+alpha:                         0
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 11.73s (0:00:11)
+
+Validation nDCG@10: 0.07020	Elapsed Time: 14.92s (0:00:14)
+
+
+<Best> Validation nDCG@10: 0.07020 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.06189 (0.00330)
+Test nDCG@10    = 0.07384 (0.00339)
+Test nDCG@15    = 0.08169 (0.00344)
+Test nDCG@20    = 0.08672 (0.00344)
+Test nDCG@25    = 0.09163 (0.00345)
+Test nDCG@50    = 0.10504 (0.00344)
+Test nDCG@75    = 0.11217 (0.00343)
+Test nDCG@100   = 0.11771 (0.00341)
+
+Test Recall@5   = 0.09166 (0.00457)
+Test Recall@10  = 0.12808 (0.00530)
+Test Recall@15  = 0.15595 (0.00575)
+Test Recall@20  = 0.17780 (0.00606)
+Test Recall@25  = 0.19990 (0.00634)
+Test Recall@50  = 0.27022 (0.00704)
+Test Recall@75  = 0.31316 (0.00735)
+Test Recall@100 = 0.34907 (0.00755)
+

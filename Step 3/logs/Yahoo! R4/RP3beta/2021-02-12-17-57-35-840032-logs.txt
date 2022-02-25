@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         2
+beta:                          2
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 1.08s (0:00:01)
+
+Validation nDCG@10: 0.02107	Elapsed Time: 2.69s (0:00:02)
+
+
+<Best> Validation nDCG@10: 0.02107 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00593 (0.00078)
+Test nDCG@10    = 0.02208 (0.00125)
+Test nDCG@15    = 0.03098 (0.00138)
+Test nDCG@20    = 0.04197 (0.00155)
+Test nDCG@25    = 0.05119 (0.00164)
+Test nDCG@50    = 0.04855 (0.00132)
+Test nDCG@75    = 0.00767 (0.00080)
+Test nDCG@100   = 0.00787 (0.00081)
+
+Test Recall@5   = 0.00853 (0.00105)
+Test Recall@10  = 0.04816 (0.00245)
+Test Recall@15  = 0.07612 (0.00304)
+Test Recall@20  = 0.11102 (0.00360)
+Test Recall@25  = 0.14580 (0.00404)
+Test Recall@50  = 0.18570 (0.00445)
+Test Recall@75  = 0.01654 (0.00146)
+Test Recall@100 = 0.01745 (0.00150)
+

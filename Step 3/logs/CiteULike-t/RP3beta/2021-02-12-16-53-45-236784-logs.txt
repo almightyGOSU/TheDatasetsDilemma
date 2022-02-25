@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          478
+alpha:                         0.65211
+beta:                          0.08539
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.68s (0:00:06)
+
+Validation nDCG@10: 0.10235	Elapsed Time: 7.98s (0:00:07)
+
+
+<Best> Validation nDCG@10: 0.10235 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.08702 (0.00386)
+Test nDCG@10    = 0.10597 (0.00394)
+Test nDCG@15    = 0.11591 (0.00396)
+Test nDCG@20    = 0.12376 (0.00395)
+Test nDCG@25    = 0.12992 (0.00395)
+Test nDCG@50    = 0.14683 (0.00390)
+Test nDCG@75    = 0.15632 (0.00386)
+Test nDCG@100   = 0.16314 (0.00383)
+
+Test Recall@5   = 0.12783 (0.00529)
+Test Recall@10  = 0.18634 (0.00617)
+Test Recall@15  = 0.22401 (0.00661)
+Test Recall@20  = 0.25741 (0.00693)
+Test Recall@25  = 0.28528 (0.00716)
+Test Recall@50  = 0.37318 (0.00766)
+Test Recall@75  = 0.42993 (0.00785)
+Test Recall@100 = 0.47388 (0.00791)
+

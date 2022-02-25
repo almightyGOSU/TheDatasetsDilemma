@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          413
+alpha:                         1.27587
+beta:                          2
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.84s (0:00:06)
+
+Validation nDCG@10: 0.03916	Elapsed Time: 10.58s (0:00:10)
+
+
+<Best> Validation nDCG@10: 0.03916 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.03303 (0.00243)
+Test nDCG@10    = 0.04129 (0.00254)
+Test nDCG@15    = 0.04595 (0.00258)
+Test nDCG@20    = 0.04895 (0.00260)
+Test nDCG@25    = 0.05147 (0.00261)
+Test nDCG@50    = 0.06059 (0.00264)
+Test nDCG@75    = 0.06617 (0.00266)
+Test nDCG@100   = 0.07015 (0.00266)
+
+Test Recall@5   = 0.04997 (0.00345)
+Test Recall@10  = 0.07484 (0.00417)
+Test Recall@15  = 0.09267 (0.00460)
+Test Recall@20  = 0.10547 (0.00487)
+Test Recall@25  = 0.11753 (0.00510)
+Test Recall@50  = 0.16424 (0.00587)
+Test Recall@75  = 0.19739 (0.00631)
+Test Recall@100 = 0.22275 (0.00659)
+

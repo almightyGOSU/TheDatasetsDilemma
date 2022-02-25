@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Toys & Games) -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Toys & Games)
+  dataset: Amazon (Toys & Games)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    100
+factors:                       168
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 19,412
+Number of Items: 11,924
+
+Number of Training Samples: 128,773
+trainData's shape: (11924, 19412)
+
+Number of Validation Samples: 19,412
+validationData's shape: (19412, 11924)
+
+Number of Testing Samples: 19,412
+testData's shape: (19412, 11924)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 1.48s (0:00:01)
+
+Validation nDCG@10: 0.04982	Elapsed Time: 18.23s (0:00:18)
+
+
+<Best> Validation nDCG@10: 0.04982 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01881 (0.00081)
+Test nDCG@10    = 0.02455 (0.00086)
+Test nDCG@15    = 0.02800 (0.00088)
+Test nDCG@20    = 0.03024 (0.00089)
+Test nDCG@25    = 0.03232 (0.00090)
+Test nDCG@50    = 0.03888 (0.00093)
+Test nDCG@75    = 0.04256 (0.00093)
+Test nDCG@100   = 0.04524 (0.00094)
+
+Test Recall@5   = 0.03039 (0.00123)
+Test Recall@10  = 0.04822 (0.00154)
+Test Recall@15  = 0.06120 (0.00172)
+Test Recall@20  = 0.07073 (0.00184)
+Test Recall@25  = 0.08026 (0.00195)
+Test Recall@50  = 0.11441 (0.00228)
+Test Recall@75  = 0.13636 (0.00246)
+Test Recall@100 = 0.15362 (0.00259)
+

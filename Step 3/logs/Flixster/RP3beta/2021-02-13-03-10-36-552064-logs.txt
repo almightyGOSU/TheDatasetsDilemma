@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          98
+alpha:                         2
+beta:                          2
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.37s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 93.57s (0:01:33)
+
+Validation nDCG@10: 0.00111	Elapsed Time: 162.00s (0:02:42)
+
+
+<Best> Validation nDCG@10: 0.00111 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00025 (0.00005)
+Test nDCG@10    = 0.00039 (0.00005)
+Test nDCG@15    = 0.00045 (0.00006)
+Test nDCG@20    = 0.00051 (0.00006)
+Test nDCG@25    = 0.00060 (0.00006)
+Test nDCG@50    = 0.00096 (0.00007)
+Test nDCG@75    = 0.00236 (0.00009)
+Test nDCG@100   = 0.00267 (0.00009)
+
+Test Recall@5   = 0.00045 (0.00008)
+Test Recall@10  = 0.00089 (0.00011)
+Test Recall@15  = 0.00111 (0.00013)
+Test Recall@20  = 0.00138 (0.00014)
+Test Recall@25  = 0.00177 (0.00016)
+Test Recall@50  = 0.00370 (0.00023)
+Test Recall@75  = 0.01215 (0.00042)
+Test Recall@100 = 0.01420 (0.00045)
+

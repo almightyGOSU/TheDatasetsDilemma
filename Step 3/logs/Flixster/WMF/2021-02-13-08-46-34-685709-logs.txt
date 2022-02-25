@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    69
+factors:                       200
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (25678, 69367)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 76.76s (0:01:16)
+
+Validation nDCG@10: 0.14181	Elapsed Time: 248.04s (0:04:08)
+
+
+<Best> Validation nDCG@10: 0.14181 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.06064 (0.00073)
+Test nDCG@10    = 0.08229 (0.00077)
+Test nDCG@15    = 0.09313 (0.00078)
+Test nDCG@20    = 0.10007 (0.00078)
+Test nDCG@25    = 0.10464 (0.00079)
+Test nDCG@50    = 0.11981 (0.00078)
+Test nDCG@75    = 0.12814 (0.00077)
+Test nDCG@100   = 0.13415 (0.00077)
+
+Test Recall@5   = 0.10140 (0.00115)
+Test Recall@10  = 0.16788 (0.00142)
+Test Recall@15  = 0.20885 (0.00154)
+Test Recall@20  = 0.23828 (0.00162)
+Test Recall@25  = 0.25917 (0.00166)
+Test Recall@50  = 0.33810 (0.00180)
+Test Recall@75  = 0.38781 (0.00185)
+Test Recall@100 = 0.42666 (0.00188)
+

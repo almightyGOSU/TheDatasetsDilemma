@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Yahoo! R4 -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Yahoo! R4
+  dataset: Yahoo! R4
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          563
+alpha:                         0.42518
+beta:                          1.08616
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 7,620
+Number of Items: 3,783
+
+Number of Training Samples: 192,531
+trainData's shape: (7620, 3783)
+
+Number of Validation Samples: 7,620
+validationData's shape: (7620, 3783)
+
+Number of Testing Samples: 7,620
+testData's shape: (7620, 3783)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.01s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 5.29s (0:00:05)
+
+Validation nDCG@10: 0.01768	Elapsed Time: 7.95s (0:00:07)
+
+
+<Best> Validation nDCG@10: 0.01768 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01569 (0.00124)
+Test nDCG@10    = 0.01971 (0.00130)
+Test nDCG@15    = 0.02251 (0.00133)
+Test nDCG@20    = 0.02406 (0.00135)
+Test nDCG@25    = 0.02587 (0.00136)
+Test nDCG@50    = 0.03128 (0.00140)
+Test nDCG@75    = 0.03634 (0.00142)
+Test nDCG@100   = 0.04050 (0.00144)
+
+Test Recall@5   = 0.02349 (0.00174)
+Test Recall@10  = 0.03583 (0.00213)
+Test Recall@15  = 0.04646 (0.00241)
+Test Recall@20  = 0.05302 (0.00257)
+Test Recall@25  = 0.06129 (0.00275)
+Test Recall@50  = 0.08937 (0.00327)
+Test Recall@75  = 0.11995 (0.00372)
+Test Recall@100 = 0.14659 (0.00405)
+

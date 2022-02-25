@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Video Games) -m RP3beta
+  dataDir: ../Datasets/Preprocessed/Amazon (Video Games)
+  dataset: Amazon (Video Games)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          150
+alpha:                         1.92202
+beta:                          0.00415
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 24,303
+Number of Items: 10,672
+
+Number of Training Samples: 183,174
+trainData's shape: (24303, 10672)
+
+Number of Validation Samples: 24,303
+validationData's shape: (24303, 10672)
+
+Number of Testing Samples: 24,303
+testData's shape: (24303, 10672)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 3.94s (0:00:03)
+
+Obtained all user-item scores!	Elapsed Time: 9.54s (0:00:09)
+
+Validation nDCG@10: 0.03943	Elapsed Time: 11.53s (0:00:11)
+
+
+<Best> Validation nDCG@10: 0.03943 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01690 (0.00070)
+Test nDCG@10    = 0.02315 (0.00075)
+Test nDCG@15    = 0.02738 (0.00078)
+Test nDCG@20    = 0.03060 (0.00079)
+Test nDCG@25    = 0.03300 (0.00080)
+Test nDCG@50    = 0.04145 (0.00083)
+Test nDCG@75    = 0.04675 (0.00084)
+Test nDCG@100   = 0.05064 (0.00084)
+
+Test Recall@5   = 0.02675 (0.00103)
+Test Recall@10  = 0.04617 (0.00135)
+Test Recall@15  = 0.06217 (0.00155)
+Test Recall@20  = 0.07579 (0.00170)
+Test Recall@25  = 0.08678 (0.00181)
+Test Recall@50  = 0.13081 (0.00216)
+Test Recall@75  = 0.16249 (0.00237)
+Test Recall@100 = 0.18763 (0.00250)
+
+End of Program!	Elapsed Time: 33.45s (0:00:33)
+

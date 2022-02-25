@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Electronics) -m UserKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Electronics)
+  dataset: Amazon (Electronics)
+  model: UserKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          935
+shrink:                        1000
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 192,403
+Number of Items: 63,002
+
+Number of Training Samples: 1,304,382
+trainData's shape: (192403, 63002)
+
+Number of Validation Samples: 192,403
+validationData's shape: (192403, 63002)
+
+Number of Testing Samples: 192,403
+testData's shape: (192403, 63002)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'UserKNNCF' created! Elapsed Time: 0.05s (0:00:00)
+
+Fitting 'UserKNNCF'..
+'UserKNNCF' fitted! Elapsed Time: 1,060.34s (0:17:40)
+
+Validation nDCG@10: 0.02361	Elapsed Time: 1,289.94s (0:21:29)
+
+
+<Best> Validation nDCG@10: 0.02361 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01085 (0.00020)
+Test nDCG@10    = 0.01360 (0.00021)
+Test nDCG@15    = 0.01530 (0.00022)
+Test nDCG@20    = 0.01660 (0.00022)
+Test nDCG@25    = 0.01759 (0.00022)
+Test nDCG@50    = 0.02091 (0.00023)
+Test nDCG@75    = 0.02305 (0.00023)
+Test nDCG@100   = 0.02449 (0.00023)
+
+Test Recall@5   = 0.01646 (0.00029)
+Test Recall@10  = 0.02500 (0.00036)
+Test Recall@15  = 0.03143 (0.00040)
+Test Recall@20  = 0.03693 (0.00043)
+Test Recall@25  = 0.04147 (0.00045)
+Test Recall@50  = 0.05878 (0.00054)
+Test Recall@75  = 0.07151 (0.00059)
+Test Recall@100 = 0.08086 (0.00062)
+
+End of Program!	Elapsed Time: 2,349.86s (0:39:09)
+

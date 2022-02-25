@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Toys & Games) -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Amazon (Toys & Games)
+  dataset: Amazon (Toys & Games)
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         1.62058
+beta:                          0.10093
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 19,412
+Number of Items: 11,924
+
+Number of Training Samples: 128,773
+trainData's shape: (19412, 11924)
+
+Number of Validation Samples: 19,412
+validationData's shape: (19412, 11924)
+
+Number of Testing Samples: 19,412
+testData's shape: (19412, 11924)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 2.48s (0:00:02)
+
+Validation nDCG@10: 0.03470	Elapsed Time: 8.72s (0:00:08)
+
+
+<Best> Validation nDCG@10: 0.03470 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01367 (0.00072)
+Test nDCG@10    = 0.01555 (0.00074)
+Test nDCG@15    = 0.01635 (0.00075)
+Test nDCG@20    = 0.01659 (0.00075)
+Test nDCG@25    = 0.01688 (0.00075)
+Test nDCG@50    = 0.01732 (0.00075)
+Test nDCG@75    = 0.01756 (0.00075)
+Test nDCG@100   = 0.01773 (0.00075)
+
+Test Recall@5   = 0.02055 (0.00102)
+Test Recall@10  = 0.02632 (0.00115)
+Test Recall@15  = 0.02941 (0.00121)
+Test Recall@20  = 0.03039 (0.00123)
+Test Recall@25  = 0.03168 (0.00126)
+Test Recall@50  = 0.03400 (0.00130)
+Test Recall@75  = 0.03534 (0.00133)
+Test Recall@100 = 0.03642 (0.00134)
+

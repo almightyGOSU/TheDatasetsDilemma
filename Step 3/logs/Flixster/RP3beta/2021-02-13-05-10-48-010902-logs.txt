@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Flixster -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/Flixster
+  dataset: Flixster
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         2
+beta:                          0
+normalize_similarity:          False
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,367
+Number of Items: 25,678
+
+Number of Training Samples: 7,861,470
+trainData's shape: (69367, 25678)
+
+Number of Validation Samples: 69,367
+validationData's shape: (69367, 25678)
+
+Number of Testing Samples: 69,367
+testData's shape: (69367, 25678)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.41s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 72.81s (0:01:12)
+
+Validation nDCG@10: 0.00986	Elapsed Time: 128.32s (0:02:08)
+
+
+<Best> Validation nDCG@10: 0.00986 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.00441 (0.00023)
+Test nDCG@10    = 0.00486 (0.00023)
+Test nDCG@15    = 0.00535 (0.00024)
+Test nDCG@20    = 0.00614 (0.00024)
+Test nDCG@25    = 0.00675 (0.00025)
+Test nDCG@50    = 0.01136 (0.00027)
+Test nDCG@75    = 0.01978 (0.00031)
+Test nDCG@100   = 0.02422 (0.00034)
+
+Test Recall@5   = 0.00605 (0.00029)
+Test Recall@10  = 0.00753 (0.00033)
+Test Recall@15  = 0.00921 (0.00036)
+Test Recall@20  = 0.01162 (0.00041)
+Test Recall@25  = 0.01470 (0.00046)
+Test Recall@50  = 0.03701 (0.00072)
+Test Recall@75  = 0.08054 (0.00103)
+Test Recall@100 = 0.10006 (0.00114)
+

@@ -1,0 +1,52 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  advanced: 1
+  basic: 0
+  command: preprocessing.py -advanced 1 -version 3 -nc 5 -method 1
+  method: 1
+  num_clusters: 5
+  random_seed: 1337
+  version: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Using 'Custom' Version of the 'ML-100K' Dataset..
+Using 'Chronological' Leave-One-Out..
+
+[ALL]           # of Users:        943
+[ALL]           # of Items:        1,349
+[ALL]           # of Interactions: 99,287
+
+[ALL]           Interactions per User:        19 (Min)       648 (Max)   105.288 (Avg)
+[ALL]           Interactions per Item:         5 (Min)       583 (Max)    73.600 (Avg)
+
+
+[Training]      # of Interactions: 97,401
+[Validation]    # of Interactions: 943
+[Testing]       # of Interactions: 943
+
+
+[Training]      # of Users:  943         
+[Training]      # of Items:  1,349       
+[Training]      ('original' items that are not in 'training': 0)
+[Training]      ('training' items that are not in 'validation' or 'testing': 595)
+
+[Validation]    # of Users:  943         
+[Validation]    # of Items:  539         
+[Validation]    ('validation' items that are not in 'training': 0)
+
+[Testing]       # of Users:  943         
+[Testing]       # of Items:  513         
+[Testing]       ('testing' items that are not in 'training': 0)
+
+
+[Training]      Interactions per User:        17 (Min)       646 (Max)   103.288 (Avg)
+[Training]      Interactions per Item:         3 (Min)       572 (Max)    72.202 (Avg)
+
+[Validation]    Interactions per User:         1 (Min)         1 (Max)     1.000 (Avg)
+[Validation]    Interactions per Item:         1 (Min)        10 (Max)     1.750 (Avg)
+
+[Testing]       Interactions per User:         1 (Min)         1 (Max)     1.000 (Avg)
+[Testing]       Interactions per Item:         1 (Min)         7 (Max)     1.838 (Avg)
+
+Training Set saved to './Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-100K/train.csv'..
+Validation Set saved to './Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-100K/validation.csv'..
+Testing Set saved to './Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-100K/test.csv'..

@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-100K -m RP3beta
+  dataDir: ../Datasets/Preprocessed/ML-100K
+  dataset: ML-100K
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         0.19843
+beta:                          0.13491
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 943
+Number of Items: 1,349
+
+Number of Training Samples: 97,401
+trainData's shape: (943, 1349)
+
+Number of Validation Samples: 943
+validationData's shape: (943, 1349)
+
+Number of Testing Samples: 943
+testData's shape: (943, 1349)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 0.24s (0:00:00)
+
+Obtained all user-item scores!	Elapsed Time: 0.26s (0:00:00)
+
+Validation nDCG@10: 0.05306	Elapsed Time: 0.29s (0:00:00)
+
+
+<Best> Validation nDCG@10: 0.05306 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.04147 (0.00595)
+Test nDCG@10    = 0.04643 (0.00605)
+Test nDCG@15    = 0.04680 (0.00607)
+Test nDCG@20    = 0.04771 (0.00608)
+Test nDCG@25    = 0.04588 (0.00601)
+Test nDCG@50    = 0.04823 (0.00603)
+Test nDCG@75    = 0.05370 (0.00610)
+Test nDCG@100   = 0.05342 (0.00608)
+
+Test Recall@5   = 0.05408 (0.00737)
+Test Recall@10  = 0.06893 (0.00825)
+Test Recall@15  = 0.06999 (0.00831)
+Test Recall@20  = 0.07423 (0.00854)
+Test Recall@25  = 0.07105 (0.00837)
+Test Recall@50  = 0.08378 (0.00902)
+Test Recall@75  = 0.10604 (0.01003)
+Test Recall@100 = 0.11241 (0.01029)
+
+End of Program!	Elapsed Time: 0.50s (0:00:00)
+

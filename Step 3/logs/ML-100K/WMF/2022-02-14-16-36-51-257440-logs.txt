@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-100K -m WMF
+  dataDir: ../Datasets/Preprocessed/ML-100K
+  dataset: ML-100K
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    2
+factors:                       145
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 943
+Number of Items: 1,349
+
+Number of Training Samples: 97,401
+trainData's shape: (1349, 943)
+
+Number of Validation Samples: 943
+validationData's shape: (943, 1349)
+
+Number of Testing Samples: 943
+testData's shape: (943, 1349)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 1.03s (0:00:01)
+
+Obtained all user-item scores!	Elapsed Time: 1.65s (0:00:01)
+
+Validation nDCG@10: 0.07174	Elapsed Time: 1.67s (0:00:01)
+
+
+<Best> Validation nDCG@10: 0.07174 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.05190 (0.00594)
+Test nDCG@10    = 0.06590 (0.00619)
+Test nDCG@15    = 0.07409 (0.00628)
+Test nDCG@20    = 0.08088 (0.00633)
+Test nDCG@25    = 0.08783 (0.00636)
+Test nDCG@50    = 0.10524 (0.00635)
+Test nDCG@75    = 0.11642 (0.00630)
+Test nDCG@100   = 0.12508 (0.00624)
+
+Test Recall@5   = 0.08590 (0.00912)
+Test Recall@10  = 0.12937 (0.01093)
+Test Recall@15  = 0.16013 (0.01194)
+Test Recall@20  = 0.18876 (0.01274)
+Test Recall@25  = 0.22057 (0.01350)
+Test Recall@50  = 0.31177 (0.01508)
+Test Recall@75  = 0.37858 (0.01579)
+Test Recall@100 = 0.43478 (0.01614)
+
+End of Program!	Elapsed Time: 1.99s (0:00:01)
+

@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m UserKNNCF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: UserKNNCF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          992
+shrink:                        412
+similarity:                    cosine
+normalize:                     True
+feature_weighting:             none
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'UserKNNCF' created! Elapsed Time: 0.33s (0:00:00)
+
+Fitting 'UserKNNCF'..
+'UserKNNCF' fitted! Elapsed Time: 522.10s (0:08:42)
+
+Validation nDCG@10: 0.03016	Elapsed Time: 618.68s (0:10:18)
+
+
+<Best> Validation nDCG@10: 0.03016 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01846 (0.00043)
+Test nDCG@10    = 0.02676 (0.00046)
+Test nDCG@15    = 0.03220 (0.00048)
+Test nDCG@20    = 0.03701 (0.00049)
+Test nDCG@25    = 0.04127 (0.00050)
+Test nDCG@50    = 0.05162 (0.00051)
+Test nDCG@75    = 0.05969 (0.00052)
+Test nDCG@100   = 0.06617 (0.00052)
+
+Test Recall@5   = 0.02995 (0.00064)
+Test Recall@10  = 0.05548 (0.00087)
+Test Recall@15  = 0.07718 (0.00101)
+Test Recall@20  = 0.09681 (0.00112)
+Test Recall@25  = 0.11449 (0.00120)
+Test Recall@50  = 0.17264 (0.00143)
+Test Recall@75  = 0.22259 (0.00157)
+Test Recall@100 = 0.26548 (0.00167)
+

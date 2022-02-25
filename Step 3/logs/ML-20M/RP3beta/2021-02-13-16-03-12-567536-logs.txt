@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-20M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-20M
+  dataset: ML-20M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          397
+alpha:                         2
+beta:                          0.55999
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 138,493
+Number of Items: 18,345
+
+Number of Training Samples: 19,707,038
+trainData's shape: (138493, 18345)
+
+Number of Validation Samples: 138,493
+validationData's shape: (138493, 18345)
+
+Number of Testing Samples: 138,493
+testData's shape: (138493, 18345)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.34s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 58.84s (0:00:58)
+
+Validation nDCG@10: 0.04022	Elapsed Time: 123.86s (0:02:03)
+
+
+<Best> Validation nDCG@10: 0.04022 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02417 (0.00035)
+Test nDCG@10    = 0.03394 (0.00037)
+Test nDCG@15    = 0.04110 (0.00039)
+Test nDCG@20    = 0.04689 (0.00039)
+Test nDCG@25    = 0.05160 (0.00040)
+Test nDCG@50    = 0.06817 (0.00041)
+Test nDCG@75    = 0.07931 (0.00041)
+Test nDCG@100   = 0.08741 (0.00041)
+
+Test Recall@5   = 0.03876 (0.00052)
+Test Recall@10  = 0.06926 (0.00068)
+Test Recall@15  = 0.09639 (0.00079)
+Test Recall@20  = 0.12092 (0.00088)
+Test Recall@25  = 0.14252 (0.00094)
+Test Recall@50  = 0.22909 (0.00113)
+Test Recall@75  = 0.29568 (0.00123)
+Test Recall@100 = 0.34800 (0.00128)
+
+End of Program!	Elapsed Time: 347.52s (0:05:47)
+

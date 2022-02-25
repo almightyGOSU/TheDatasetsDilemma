@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d CiteULike-t -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/CiteULike-t
+  dataset: CiteULike-t
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          512
+alpha:                         0
+beta:                          0.42333
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 3,982
+Number of Items: 6,590
+
+Number of Training Samples: 74,414
+trainData's shape: (3982, 6590)
+
+Number of Validation Samples: 3,982
+validationData's shape: (3982, 6590)
+
+Number of Testing Samples: 3,982
+testData's shape: (3982, 6590)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 6.08s (0:00:06)
+
+Validation nDCG@10: 0.08261	Elapsed Time: 8.34s (0:00:08)
+
+
+<Best> Validation nDCG@10: 0.08261 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.06510 (0.00336)
+Test nDCG@10    = 0.08142 (0.00346)
+Test nDCG@15    = 0.09059 (0.00349)
+Test nDCG@20    = 0.09691 (0.00351)
+Test nDCG@25    = 0.10139 (0.00351)
+Test nDCG@50    = 0.11671 (0.00349)
+Test nDCG@75    = 0.12548 (0.00347)
+Test nDCG@100   = 0.13100 (0.00345)
+
+Test Recall@5   = 0.09694 (0.00469)
+Test Recall@10  = 0.14792 (0.00563)
+Test Recall@15  = 0.18332 (0.00613)
+Test Recall@20  = 0.20919 (0.00645)
+Test Recall@25  = 0.23029 (0.00667)
+Test Recall@50  = 0.31015 (0.00733)
+Test Recall@75  = 0.36263 (0.00762)
+Test Recall@100 = 0.39804 (0.00776)
+

@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-20M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-20M
+  dataset: ML-20M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         0
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 138,493
+Number of Items: 18,345
+
+Number of Training Samples: 19,707,038
+trainData's shape: (138493, 18345)
+
+Number of Validation Samples: 138,493
+validationData's shape: (138493, 18345)
+
+Number of Testing Samples: 138,493
+testData's shape: (138493, 18345)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.29s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 44.54s (0:00:44)
+
+Validation nDCG@10: 0.02052	Elapsed Time: 95.89s (0:01:35)
+
+
+<Best> Validation nDCG@10: 0.02052 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01648 (0.00031)
+Test nDCG@10    = 0.01949 (0.00031)
+Test nDCG@15    = 0.02313 (0.00032)
+Test nDCG@20    = 0.02441 (0.00032)
+Test nDCG@25    = 0.02515 (0.00032)
+Test nDCG@50    = 0.02673 (0.00031)
+Test nDCG@75    = 0.02713 (0.00030)
+Test nDCG@100   = 0.02821 (0.00030)
+
+Test Recall@5   = 0.02311 (0.00040)
+Test Recall@10  = 0.03360 (0.00048)
+Test Recall@15  = 0.04772 (0.00057)
+Test Recall@20  = 0.05553 (0.00062)
+Test Recall@25  = 0.06094 (0.00064)
+Test Recall@50  = 0.07991 (0.00073)
+Test Recall@75  = 0.08954 (0.00077)
+Test Recall@100 = 0.10304 (0.00082)
+
+End of Program!	Elapsed Time: 298.10s (0:04:58)
+

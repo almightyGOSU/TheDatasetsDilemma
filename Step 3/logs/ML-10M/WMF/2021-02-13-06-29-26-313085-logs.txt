@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m WMF
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    2
+factors:                       175
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (10196, 69878)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 77.34s (0:01:17)
+
+Validation nDCG@10: 0.05362	Elapsed Time: 240.56s (0:04:00)
+
+
+<Best> Validation nDCG@10: 0.05362 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.03226 (0.00055)
+Test nDCG@10    = 0.04552 (0.00060)
+Test nDCG@15    = 0.05467 (0.00061)
+Test nDCG@20    = 0.06158 (0.00062)
+Test nDCG@25    = 0.06738 (0.00063)
+Test nDCG@50    = 0.08557 (0.00064)
+Test nDCG@75    = 0.09691 (0.00063)
+Test nDCG@100   = 0.10462 (0.00063)
+
+Test Recall@5   = 0.05275 (0.00085)
+Test Recall@10  = 0.09421 (0.00111)
+Test Recall@15  = 0.12881 (0.00127)
+Test Recall@20  = 0.15805 (0.00138)
+Test Recall@25  = 0.18461 (0.00147)
+Test Recall@50  = 0.27952 (0.00170)
+Test Recall@75  = 0.34728 (0.00180)
+Test Recall@100 = 0.39712 (0.00185)
+

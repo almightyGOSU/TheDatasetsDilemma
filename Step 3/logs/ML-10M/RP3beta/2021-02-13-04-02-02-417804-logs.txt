@@ -1,0 +1,63 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d ML-10M -m RP3beta
+  dataDir: ./Datasets/Preprocessed (Custom) (Chronological Leave-One-Out)/ML-10M
+  dataset: ML-10M
+  model: RP3beta
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+topK:                          5
+alpha:                         0
+beta:                          0
+normalize_similarity:          True
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 69,878
+Number of Items: 10,196
+
+Number of Training Samples: 9,859,060
+trainData's shape: (69878, 10196)
+
+Number of Validation Samples: 69,878
+validationData's shape: (69878, 10196)
+
+Number of Testing Samples: 69,878
+testData's shape: (69878, 10196)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'RP3beta' created! Elapsed Time: 0.23s (0:00:00)
+
+Fitting 'RP3beta'..
+'RP3beta' fitted! Elapsed Time: 25.84s (0:00:25)
+
+Validation nDCG@10: 0.02027	Elapsed Time: 44.25s (0:00:44)
+
+
+<Best> Validation nDCG@10: 0.02027 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.01455 (0.00041)
+Test nDCG@10    = 0.01844 (0.00043)
+Test nDCG@15    = 0.02058 (0.00044)
+Test nDCG@20    = 0.02339 (0.00045)
+Test nDCG@25    = 0.02595 (0.00046)
+Test nDCG@50    = 0.02917 (0.00046)
+Test nDCG@75    = 0.03393 (0.00047)
+Test nDCG@100   = 0.03784 (0.00047)
+
+Test Recall@5   = 0.01931 (0.00052)
+Test Recall@10  = 0.03048 (0.00065)
+Test Recall@15  = 0.03947 (0.00074)
+Test Recall@20  = 0.05079 (0.00083)
+Test Recall@25  = 0.06119 (0.00091)
+Test Recall@50  = 0.08199 (0.00104)
+Test Recall@75  = 0.11454 (0.00120)
+Test Recall@100 = 0.14418 (0.00133)
+

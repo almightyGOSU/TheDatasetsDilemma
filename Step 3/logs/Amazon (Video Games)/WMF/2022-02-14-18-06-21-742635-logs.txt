@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+  command: -d Amazon (Video Games) -m WMF
+  dataDir: ../Datasets/Preprocessed/Amazon (Video Games)
+  dataset: Amazon (Video Games)
+  model: WMF
+  random_seed: 1337
+  verbose: 0
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+>>> Hyperparameters <<<
+
+confidence:                    66
+factors:                       104
+reg:                           0.01
+iterations:                    15
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Number of Users: 24,303
+Number of Items: 10,672
+
+Number of Training Samples: 183,174
+trainData's shape: (10672, 24303)
+
+Number of Validation Samples: 24,303
+validationData's shape: (24303, 10672)
+
+Number of Testing Samples: 24,303
+testData's shape: (24303, 10672)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+'WMF' created! Elapsed Time: 0.00s (0:00:00)
+
+Fitting 'WMF'..
+'WMF' fitted! Elapsed Time: 2.23s (0:00:02)
+
+Obtained all user-item scores!	Elapsed Time: 26.12s (0:00:26)
+
+Validation nDCG@10: 0.05337	Elapsed Time: 28.82s (0:00:28)
+
+
+<Best> Validation nDCG@10: 0.05337 (Epoch 1)
+
+
+
+Test nDCG@5     = 0.02340 (0.00082)
+Test nDCG@10    = 0.03207 (0.00087)
+Test nDCG@15    = 0.03755 (0.00090)
+Test nDCG@20    = 0.04208 (0.00092)
+Test nDCG@25    = 0.04584 (0.00093)
+Test nDCG@50    = 0.05729 (0.00095)
+Test nDCG@75    = 0.06440 (0.00096)
+Test nDCG@100   = 0.06945 (0.00096)
+
+Test Recall@5   = 0.03707 (0.00121)
+Test Recall@10  = 0.06394 (0.00157)
+Test Recall@15  = 0.08472 (0.00179)
+Test Recall@20  = 0.10390 (0.00196)
+Test Recall@25  = 0.12114 (0.00209)
+Test Recall@50  = 0.18084 (0.00247)
+Test Recall@75  = 0.22335 (0.00267)
+Test Recall@100 = 0.25602 (0.00280)
+
+End of Program!	Elapsed Time: 50.27s (0:00:50)
+
